@@ -1,0 +1,7 @@
+<div class="main-container">
+    <app-header (menuEmitter)="menuValue($event)"></app-header>
+    <ng-container *ngIf="activeMenu === 'home'">
+        <app-home-menu></app-home-menu>
+    </ng-container>
+    <app-footer></app-footer>
+</div>

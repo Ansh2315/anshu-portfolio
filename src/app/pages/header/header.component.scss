@@ -1,0 +1,22 @@
+.main-container {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.main-header {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    cursor: pointer;
+    padding: 10px;
+    height: 55px;
+}
+
+.active {
+    color: var(--primary-text-hover);
+}
+
+.label-font:hover {
+    color: var(--primary-text-hover);
+}

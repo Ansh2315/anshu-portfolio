@@ -1,0 +1,9 @@
+.main-container {
+    background-image: url('./../../../assets/main-background.jpg');
+    background-size: cover; /* Ensures the image covers the entire area */
+    background-repeat: no-repeat; /* Prevents tiling */
+    background-position: center center; /* Centers the image */
+    image-rendering: auto; /* Ensures smooth rendering */
+    -webkit-background-size: cover;
+    height: calc(100vh);
+}
