@@ -4,9 +4,37 @@
             <span class="sour-gummy-bold f-xlarger">Say Hello ...</span>
             <form [formGroup]="eForm">
                 <div>
-                    <label class="form-label">Enter Name</label>
+                    <label class="form-label required">Enter Name</label>
                     <input type="text" class="form-control" formControlName="name" [(ngModel)]="eForm['name']"
                         placeholder="Name" aria-label="Name" aria-describedby="#">
+                </div>
+                <div *ngIf="f.name.errors && f.name.dirty" class="color-red">
+                    <span *ngIf="f.name.errors?.required">
+                        Name is required
+                    </span>
+                </div>
+                <div>
+                    <label class="form-label">Enter Email</label>
+                    <input type="text" class="form-control" formControlName="email" [(ngModel)]="eForm['email']"
+                        placeholder="Email" aria-label="Email" aria-describedby="#">
+                </div>
+                <div *ngIf="f.email.errors && f.email.dirty" class="color-red">
+                    <span *ngIf="f.email.errors?.required">
+                        Email is required
+                    </span>
+                </div>
+                <div>
+                    <label class="form-label">Enter Message</label>
+                    <input type="text" class="form-control" formControlName="message" [(ngModel)]="eForm['message']"
+                        placeholder="Message" aria-label="Message" aria-describedby="#">
+                </div>
+                <div *ngIf="f.message.errors && f.message.dirty" class="color-red">
+                    <span *ngIf="f.message.errors?.required">
+                        Message is required
+                    </span>
+                </div>
+                <div>
+                    <button class="button-50" role="button" (click)="sendMail()">Send Email</button>
                 </div>
             </form>
         </div>
