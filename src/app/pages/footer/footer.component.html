@@ -3,7 +3,7 @@
         <div class="send-mail">
             <span class="sour-gummy-bold f-xlarger">Say Hello ...</span>
             <form [formGroup]="eForm">
-                <div>
+                <div class="w-50">
                     <label class="form-label required">Enter Name</label>
                     <input type="text" class="form-control" formControlName="name" [(ngModel)]="eForm['name']"
                         placeholder="Name" aria-label="Name" aria-describedby="#">
@@ -13,7 +13,7 @@
                         Name is required
                     </span>
                 </div>
-                <div>
+                <div class="w-50">
                     <label class="form-label">Enter Email</label>
                     <input type="text" class="form-control" formControlName="email" [(ngModel)]="eForm['email']"
                         placeholder="Email" aria-label="Email" aria-describedby="#">
@@ -23,7 +23,7 @@
                         Email is required
                     </span>
                 </div>
-                <div>
+                <div class="w-50">
                     <label class="form-label">Enter Message</label>
                     <input type="text" class="form-control" formControlName="message" [(ngModel)]="eForm['message']"
                         placeholder="Message" aria-label="Message" aria-describedby="#">
@@ -34,7 +34,7 @@
                     </span>
                 </div>
                 <div>
-                    <button class="button-50" role="button" (click)="sendMail()">Send Email</button>
+                    <button class="button-50 my-1" role="button" (click)="sendMail()">Send Email</button>
                 </div>
             </form>
         </div>
@@ -43,21 +43,21 @@
         <div>
             <div class="column-flex">
                 <span class="roboto-bold f-xlarger">Visit Me</span>
-                <span>Neeladri Nagar, Electronic City, Bangalore, Karnataka</span>
+                <span class="contact-detail">Neeladri Nagar, Electronic City, Bangalore, Karnataka</span>
             </div>
             <div class="column-flex">
-                <span>Contact</span>
-                <span>
-                    <em></em>
-                    <span>7978931892</span>
+                <span class="contact-class roboto-semi-bold">Contact</span>
+                <span class="my-1">
+                    <em class="fa fa-phone contact-detail mx-1"></em>
+                    <span class="contact-detail">7978931892</span>
                 </span>
-                <span>
-                    <em></em>
-                    <span>anshuman3127@gmail.com</span>
+                <span class="my-1">
+                    <em class="fa fa-envelope contact-detail mx-1"></em>
+                    <span class="contact-detail">anshuman3127@gmail.com</span>
                 </span>
-                <span>
-                    <em></em>
-                    <span>linkedin</span>
+                <span class="my-1">
+                    <em class="fa fa-linkedin-square contact-detail mx-1"></em>
+                    <span class="contact-detail">linkedin</span>
                 </span>
             </div>
         </div>

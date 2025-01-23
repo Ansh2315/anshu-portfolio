@@ -5,6 +5,17 @@
 @import "./variable";
 @import "../node_modules/font-awesome/scss/font-awesome.scss";
 
+* {
+    box-sizing: border-box;
+  }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden; /* Prevents horizontal scrolling */
+  }
+
 .roboto-regular {
     font-family: "Roboto", serif;
     font-optical-sizing: auto;

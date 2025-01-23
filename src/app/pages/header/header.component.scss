@@ -2,15 +2,16 @@
     display: flex;
     justify-content: end;
     align-items: center;
+    height: 50px;
 }
 
 .main-header {
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 2rem;
     cursor: pointer;
-    padding: 10px;
-    height: 55px;
+    margin-inline: 1rem;
 }
 
 .active {

@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 94%;
+    height: calc(100vh - 50px);
 }
 
 .main-content {
@@ -10,7 +10,8 @@
     justify-content: space-between;
     align-items: center;
     gap: 10px;
-    width: 50%;
+    width: 70%;
+    z-index: 10;
 
     .name {
         font-size: 45px
@@ -145,13 +146,46 @@
 
 .info-template {
     position: absolute;
-    left: 40%;
     top: 10%;
+    z-index: 0;
 
     .info-label {
         display: block;
         font-size: 110px;
-        letter-spacing: 20px;
+        letter-spacing: 4rem;
         color: #dbdfe2;
     }
 }
+
+@media (min-width: 1025px) and (max-width: 1444px) {
+    /* Styles for laptops and small screens */
+
+    .main-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+        width: 100%;
+        z-index: 10;
+    
+        .name {
+            font-size: 45px
+        }
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 1024px) {
+    /* Styles for tablets */
+    .main-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+        width: 80%;
+        z-index: 10;
+    
+        .name {
+            font-size: 45px
+        }
+    }
+  }
