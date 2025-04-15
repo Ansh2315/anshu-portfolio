@@ -20,6 +20,7 @@
 
 .pdf-container {
     display: flex;
+    z-index: 5;
 
     .fa {
         background-color: var(--secondary);
@@ -144,18 +145,6 @@
     }
 }
 
-.info-template {
-    position: absolute;
-    top: 10%;
-    z-index: 0;
-
-    .info-label {
-        display: block;
-        font-size: 110px;
-        letter-spacing: 4rem;
-        color: #dbdfe2;
-    }
-}
 
 @media (min-width: 1025px) and (max-width: 1444px) {
     /* Styles for laptops and small screens */

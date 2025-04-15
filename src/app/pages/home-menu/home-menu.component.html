@@ -15,21 +15,17 @@
                 Continuously explores new innovations and stays updated with emerging trends. Highly motivated,
                 adaptable, and committed to delivering high-quality solutions with efficiency and creativity.
             </span>
-            <button (click)="viewResume()" type="button" class="button-29 w-fit"><em
-                    class="fa fa-eye mx-1"></em>View Resume</button>
+            <button (click)="viewResume()" type="button" class="button-29 w-fit"><em class="fa fa-eye mx-1"></em>View
+                Resume</button>
         </div>
     </div>
     <div class="pdf-container" *ngIf="isPdf">
-        <em class="fa fa-angle-left" (click)="viewResume()"></em>
-        <pdf-viewer src="./../../../assets/resume/anshu-cv.pdf"
-            style="width: 835px; height: 780px; z-index: 1" [zoom]="zoom"></pdf-viewer>
-            <div class="zoom-btn">
-                <em class="fa fa-search-plus zoom-in" (click)="zoomIn()"></em>
-                <em class="fa fa-search-minus zoom-out" (click)="zoomOut()"></em>
-            </div>
+        <span (click)="viewResume()"><em class="fa fa-angle-left"></em></span>
+        <pdf-viewer src="./../../../assets/resume/anshu-cv.pdf" style="width: 835px; height: 780px; z-index: 1"
+            [zoom]="zoom"></pdf-viewer>
+        <div class="zoom-btn">
+            <em class="fa fa-search-plus zoom-in" (click)="zoomIn()"></em>
+            <em class="fa fa-search-minus zoom-out" (click)="zoomOut()"></em>
+        </div>
     </div>
-</div>
-
-<div class="info-template">
-    <span class="info-label">ABOUT</span>
 </div>
