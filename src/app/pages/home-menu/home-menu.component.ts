@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {error} from "@angular/compiler-cli/src/transformers/util";
 
 @Component({
   selector: 'app-home-menu',
@@ -7,7 +8,6 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeMenuComponent implements OnInit {
 
-  public isPdf: boolean = false;
   public zoom = 1;
 
   constructor() { }
@@ -15,12 +15,21 @@ export class HomeMenuComponent implements OnInit {
   ngOnInit(): void {
   }
 
+
   viewResume = () => {
     try {
-      this.isPdf = !this.isPdf;
-      this.zoom = 1;
-    } catch (error) {
-      console.error(error);
+      const pdfUrl = "assets/resume/anshu-cv.pdf";
+      fetch(pdfUrl)
+        .then(response => response.blob())
+        .then(blob => {
+          const fileURL = URL.createObjectURL(blob);
+          window.open(fileURL, '_blank');
+        })
+        .catch(err => {
+          console.error('Error opening PDF:', err);
+        });
+    } catch (e) {
+      console.error(e)
     }
   }
 
@@ -40,7 +49,7 @@ export class HomeMenuComponent implements OnInit {
       this.zoom = this.zoom - 0.1;
     } catch (error) {
       console.error(error);
-      
+
     }
   }
 

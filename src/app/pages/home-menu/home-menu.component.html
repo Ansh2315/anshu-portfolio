@@ -1,5 +1,5 @@
 <div class="contaiiner">
-    <div *ngIf="!isPdf" class="main-content">
+    <div class="main-content">
         <div class="profile">
             <img class="image img-1" src="./../../../assets/profile-2.jpeg">
             <img class="image img-2" src="./../../../assets/profile-3.jpeg">
@@ -19,14 +19,14 @@
                 Resume</button>
         </div>
     </div>
-    <div class="pdf-container" *ngIf="isPdf">
-        <span (click)="viewResume()"><em class="fa fa-angle-left"></em></span>
-        <pdf-viewer src="./../../../assets/resume/anshu-cv.pdf" class="w-100 h-100"
-            [zoom]="zoom" [fit-to-page]="true" [show-all]="true" [original-size]="false"
-                    [autoresize]="true"></pdf-viewer>
-        <div class="zoom-btn">
-            <em class="fa fa-search-plus zoom-in" (click)="zoomIn()"></em>
-            <em class="fa fa-search-minus zoom-out" (click)="zoomOut()"></em>
-        </div>
-    </div>
+<!--    <div class="pdf-container" *ngIf="isPdf">-->
+<!--        <span (click)="viewResume()"><em class="fa fa-angle-left"></em></span>-->
+<!--        <pdf-viewer src="./../../../assets/resume/anshu-cv.pdf" class="w-100 h-100"-->
+<!--            [zoom]="zoom" [fit-to-page]="true" [show-all]="true" [original-size]="false"-->
+<!--                    [autoresize]="true"></pdf-viewer>-->
+<!--        <div class="zoom-btn">-->
+<!--            <em class="fa fa-search-plus zoom-in" (click)="zoomIn()"></em>-->
+<!--            <em class="fa fa-search-minus zoom-out" (click)="zoomOut()"></em>-->
+<!--        </div>-->
+<!--    </div>-->
 </div>
