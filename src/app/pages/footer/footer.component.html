@@ -1,9 +1,9 @@
 <div class="main-footer-container">
-    <div class="w-50">
+    <div class="width-50">
         <div class="send-mail">
             <span class="sour-gummy-bold f-xlarger">Say Hello ...</span>
             <form [formGroup]="eForm">
-                <div class="w-50">
+                <div >
                     <label class="form-label required">Enter Name</label>
                     <input type="text" class="form-control" formControlName="name" [(ngModel)]="eForm['name']"
                         placeholder="Name" aria-label="Name" aria-describedby="#">
@@ -13,7 +13,7 @@
                         Name is required
                     </span>
                 </div>
-                <div class="w-50">
+                <div>
                     <label class="form-label">Enter Email</label>
                     <input type="text" class="form-control" formControlName="email" [(ngModel)]="eForm['email']"
                         placeholder="Email" aria-label="Email" aria-describedby="#">
@@ -23,7 +23,7 @@
                         Email is required
                     </span>
                 </div>
-                <div class="w-50">
+                <div>
                     <label class="form-label">Enter Message</label>
                     <input type="text" class="form-control" formControlName="message" [(ngModel)]="eForm['message']"
                         placeholder="Message" aria-label="Message" aria-describedby="#">
@@ -39,7 +39,7 @@
             </form>
         </div>
     </div>
-    <div>
+    <div class="footer-contact">
         <div>
             <div class="column-flex">
                 <span class="roboto-bold f-xlarger">Visit Me</span>

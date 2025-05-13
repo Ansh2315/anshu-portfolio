@@ -21,8 +21,9 @@
     </div>
     <div class="pdf-container" *ngIf="isPdf">
         <span (click)="viewResume()"><em class="fa fa-angle-left"></em></span>
-        <pdf-viewer src="./../../../assets/resume/anshu-cv.pdf" style="width: 835px; height: 780px; z-index: 1"
-            [zoom]="zoom"></pdf-viewer>
+        <pdf-viewer src="./../../../assets/resume/anshu-cv.pdf" class="w-100 h-100"
+            [zoom]="zoom" [fit-to-page]="true" [show-all]="true" [original-size]="false"
+                    [autoresize]="true"></pdf-viewer>
         <div class="zoom-btn">
             <em class="fa fa-search-plus zoom-in" (click)="zoomIn()"></em>
             <em class="fa fa-search-minus zoom-out" (click)="zoomOut()"></em>
