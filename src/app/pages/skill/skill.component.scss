@@ -1,0 +1,68 @@
+.container {
+  height: calc(100vh - 50px);
+  margin-block: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+
+  .title-content {
+    background-color: var(--primary-text-hover);
+    color: var(--white-color);
+    border-radius: 20px;
+    padding: 7px;
+  }
+
+}
+.sub-text {
+  font-size: small;
+  color: var(--sub-text);
+}
+
+.skill-body {
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+
+  .each-card {
+    width: 300px;
+    background-color: aliceblue;
+  }
+
+  .card {
+
+    .card-image-title {
+      display: flex;
+      gap: 10px;
+      background-color: #cfe6ff;
+      border-radius: 5px;
+    }
+
+    img {
+      width: 100px;
+      height: 100px;
+      object-fit: contain;
+    }
+  }
+
+  .range-container {
+    height: 10px;
+    border: 1px solid #dbdfe2;
+    border-radius: 10px;
+    .range-data {
+      border-radius: 10px;
+      height: 9px;
+      background-color: var(--primary-text-hover);
+    }
+  }
+
+
+}
+

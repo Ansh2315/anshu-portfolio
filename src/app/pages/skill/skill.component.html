@@ -1,0 +1,29 @@
+<div class="container">
+  <div class="title">
+    <div class="title-content"><em class="fa fa-star-o mx-1"></em>SKILLS & AWARDS</div>
+    <span class="sub-text">From code to creativity, these are the tools I wield—and the badges I’ve earned along the way.</span>
+  </div>
+  <div class="skill-body">
+    <ng-container *ngFor="let each_skill of skills">
+      <div class="card each-card p-2">
+        <div class="card-image-title">
+          <img [src]="each_skill.image" [alt]="each_skill.label">
+          <div class="column-flex">
+            <h6 class="card-title pt-3">{{each_skill.label}}</h6>
+            <span class="sub-text" *ngIf="each_skill.sub_text">{{each_skill.sub_text}}</span>
+          </div>
+        </div>
+        <div class="my-2">
+          <div class="range-container">
+            <div class="range-data" [ngStyle]="{width: each_skill.level + '%'}">
+            </div>
+          </div>
+          <div class="d-flex justify-content-between">
+            <span class="sub-text">Proficiency</span>
+            <span class="sub-text">{{each_skill.level + '%'}}</span>
+          </div>
+        </div>
+      </div>
+    </ng-container>
+  </div>
+</div>
