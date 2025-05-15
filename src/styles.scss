@@ -14,6 +14,7 @@
     padding: 0;
     width: 100%;
     overflow-x: hidden; /* Prevents horizontal scrolling */
+    font-family: "Roboto", serif;
   }
 
 .roboto-regular {
@@ -98,4 +99,9 @@
 
 .color-red {
     color: red;
+}
+.center-align {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

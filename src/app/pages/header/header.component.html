@@ -1,8 +1,0 @@
-<div class="main-container">
-    <div class="main-header roboto-medium">
-        <ng-container *ngFor="let item of list">
-            <span (click)="onHeaderContent(item.value)" class="label-font px-1"
-                [ngClass]="{'active': activeMenu === item.value}">{{item.label}}</span>
-        </ng-container>
-    </div>
-</div>
