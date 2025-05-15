@@ -3,21 +3,21 @@ import { CommonModule } from '@angular/common';
 
 import { PagesRoutingModule } from './pages-routing.module';
 import { HomeComponent } from './home/home.component';
-import { HeaderComponent } from './header/header.component';
 import { HomeMenuComponent } from './home-menu/home-menu.component';
 import { PdfViewerModule } from 'ng2-pdf-viewer';
 import { NgxExtendedPdfViewerModule } from 'ngx-extended-pdf-viewer';
 import { FooterComponent } from './footer/footer.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { SkillComponent } from './skill/skill.component';
 
 
 @NgModule({
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
   declarations: [
     HomeComponent,
-    HeaderComponent,
     HomeMenuComponent,
-    FooterComponent
+    FooterComponent,
+    SkillComponent
   ],
   imports: [
     CommonModule,

@@ -1,25 +1,31 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnDestroy, OnInit} from '@angular/core';
+import {SharedServiceService} from "../../services/shared-service.service";
+import {Subscription} from "rxjs";
 
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss']
 })
-export class HomeComponent implements OnInit {
+export class HomeComponent implements OnInit, OnDestroy {
 
-  public activeMenu: string = 'home'
+  public activeMenu: string = 'skills';
+  public headerSubscription: Subscription = new Subscription();
 
-  constructor() { }
+  constructor(private _sharedService: SharedServiceService) {
+    this.headerSubscription = this._sharedService.headerSubject.subscribe((resp) => {
+      if(resp?.value) {
+        this.activeMenu = resp.value;
+      }
+    })
+  }
 
   ngOnInit(): void {
   }
 
-  menuValue = (event: any) => {
-    try {
-      this.activeMenu = event;
-    } catch (error) {
-      console.error(error);
-      
+  ngOnDestroy(): void {
+    if(this.headerSubscription) {
+      this.headerSubscription.unsubscribe()
     }
   }
 
