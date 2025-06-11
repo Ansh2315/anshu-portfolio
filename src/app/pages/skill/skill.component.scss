@@ -27,7 +27,7 @@
   flex-wrap: wrap;
 
   .each-card {
-    width: 300px;
+    min-width: 220px;
     background-color: aliceblue;
   }
 
@@ -57,7 +57,17 @@
       background-color: var(--primary-text-hover);
     }
   }
-
-
 }
+
+@media (min-width: 1025px) and (max-width: 1444px) {
+    /* Styles for laptops and small screens */
+  }
+
+@media only screen and (max-width: 600px) {
+    // styles for mobile
+}
+
+  @media (min-width: 768px) and (max-width: 1024px) {
+    /* Styles for tablets */
+  }
 

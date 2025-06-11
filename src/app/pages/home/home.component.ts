@@ -9,7 +9,7 @@ import {Subscription} from "rxjs";
 })
 export class HomeComponent implements OnInit, OnDestroy {
 
-  public activeMenu: string = 'skills';
+  public activeMenu: string = 'home';
   public headerSubscription: Subscription = new Subscription();
 
   constructor(private _sharedService: SharedServiceService) {
