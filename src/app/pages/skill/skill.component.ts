@@ -34,6 +34,12 @@ export class SkillComponent implements OnInit {
       value: 'ts'
     },
     {
+      label: 'RxJs',
+      level: 90,
+      image: './assets/skill-icon/rxjs-icon.svg',
+      value: 'rxjs'
+    },
+    {
       label: 'SCSS',
       level: 90,
       image: './assets/skill-icon/css-icon.png',

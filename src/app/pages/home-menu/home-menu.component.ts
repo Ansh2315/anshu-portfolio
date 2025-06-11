@@ -57,7 +57,7 @@ export class HomeMenuComponent implements OnInit {
     try {
       switch (data) {
         case 'git':
-          const url_1 = 'https://github.com/Ansh2315';
+          const url_1 = 'https://github.com/Ansh2315/anshu-portfolio';
           window.open(url_1, '_blank');
           break;
         case 'linkedin':

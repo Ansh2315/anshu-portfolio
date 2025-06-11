@@ -1,5 +1,4 @@
 .container {
-  height: calc(100vh - 50px);
   margin-block: 10px;
   display: flex;
   flex-direction: column;
@@ -20,10 +19,6 @@
     padding: 7px;
   }
 
-}
-.sub-text {
-  font-size: small;
-  color: var(--sub-text);
 }
 
 .skill-body {

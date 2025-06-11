@@ -9,6 +9,7 @@ import { NgxExtendedPdfViewerModule } from 'ngx-extended-pdf-viewer';
 import { FooterComponent } from './footer/footer.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { SkillComponent } from './skill/skill.component';
+import { ExperienceComponent } from './experience/experience.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { SkillComponent } from './skill/skill.component';
     HomeComponent,
     HomeMenuComponent,
     FooterComponent,
-    SkillComponent
+    SkillComponent,
+    ExperienceComponent
   ],
   imports: [
     CommonModule,
