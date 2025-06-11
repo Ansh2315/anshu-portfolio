@@ -28,7 +28,7 @@
 
   .each-card {
     min-width: 220px;
-    background-color: aliceblue;
+    background: var(--card-background);
   }
 
   .card {
@@ -36,7 +36,7 @@
     .card-image-title {
       display: flex;
       gap: 10px;
-      background-color: #cfe6ff;
+      background: var(--card-title-bar);
       border-radius: 5px;
     }
 

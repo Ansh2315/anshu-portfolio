@@ -46,6 +46,12 @@ export class SkillComponent implements OnInit {
       value: 'scss'
     },
     {
+      label: 'React',
+      level: 60,
+      image: './assets/skill-icon/react-icon.svg',
+      value: 'react'
+    },
+    {
       label: 'Node Js',
       level: 50,
       image: './assets/skill-icon/node-js-icon.png',
