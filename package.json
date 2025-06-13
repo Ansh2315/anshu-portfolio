@@ -6,7 +6,8 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "build:gh-pages": "ng build --output-path=docs --base-href /anshu-portfolio/ && cp 404.html docs/"
   },
   "private": true,
   "dependencies": {
