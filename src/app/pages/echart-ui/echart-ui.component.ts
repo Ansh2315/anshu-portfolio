@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, HostListener, OnInit } from '@angular/core';
 import type { EChartsOption } from 'echarts';
 
 @Component({
@@ -17,6 +17,41 @@ export class EchartUiComponent implements OnInit {
     {
       title: 'Bar Chart',
       value: 'bar',
+      option: {}
+    },
+    {
+      title: 'Pie Chart',
+      value: 'pie',
+      option: {}
+    },
+    {
+      title: 'Pie Chart',
+      value: 'pie',
+      option: {}
+    },
+    {
+      title: 'Pie Chart',
+      value: 'pie',
+      option: {}
+    },
+    {
+      title: 'Pie Chart',
+      value: 'pie',
+      option: {}
+    },
+    {
+      title: 'Pie Chart',
+      value: 'pie',
+      option: {}
+    },
+    {
+      title: 'Pie Chart',
+      value: 'pie',
+      option: {}
+    },
+    {
+      title: 'Pie Chart',
+      value: 'pie',
       option: {}
     },
     {
@@ -152,10 +187,17 @@ export class EchartUiComponent implements OnInit {
       }
     ]
   }
+  public showChart: boolean = true;
   constructor() { }
 
   ngOnInit(): void {
     this.getChartOptions();
+  }
+
+  @HostListener('window:resize', [])
+  onResize(): void {
+    this.showChart = false;
+    setTimeout(() => this.showChart = true, 0); // Re-trigger change detection
   }
 
   getChartOptions = () => {

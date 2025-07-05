@@ -1,4 +1,5 @@
 import { Component, EventEmitter, OnInit, Output } from '@angular/core';
+import { ScreenResolutionService } from 'src/app/services/screen-resolution.service';
 
 @Component({
   selector: 'app-side-bar',
@@ -28,7 +29,7 @@ export class SideBarComponent implements OnInit {
   ]
   public selectedItem: string = '';
 
-  constructor() { }
+  constructor(public screenResService: ScreenResolutionService) { }
 
   ngOnInit(): void {
   }

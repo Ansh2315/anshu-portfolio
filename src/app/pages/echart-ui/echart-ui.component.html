@@ -1,11 +1,11 @@
-<div class="row col-md-12 my-2 px-3">
+<div class="row col-md-12 my-2 px-3 echart-area">
     <ng-container *ngFor="let each of listOfCharts">
-        <div class="col-md-4 echart-card">
+        <div class="col-md-4 col-sm-6 col-12 echart-card">
             <div class="echart-bg p-2">
                 <span>{{each.title}}</span>
             </div>
             <div class="d-flex echart-bg shadow">
-                <echarts  #chartRef [autoResize]="true" [options]="each.option" class="chart-container">
+                <echarts *ngIf="showChart" #chartRef [autoResize]="true" [options]="each.option" class="chart-container">
                 </echarts>
             </div>
         </div>
