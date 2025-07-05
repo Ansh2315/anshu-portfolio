@@ -1,0 +1,10 @@
+<div class="main-bar">
+    <div class="sidebar-header">
+        <span>Libraries</span><img alt="side-bar" src="./assets/element-icon/hamburger-icon.png">
+    </div>
+    <ng-container *ngFor="let each of item">
+        <div class="each-bar" [ngClass]="each.value === selectedItem ? 'active' : ''" (click)="onItemClick(each.value)">
+            <img [alt]="each.label" [src]="each.icon"><span class="each-label">{{each.label}}</span>
+        </div>
+    </ng-container>
+</div>

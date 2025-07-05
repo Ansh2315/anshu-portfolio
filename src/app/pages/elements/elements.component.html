@@ -1,0 +1,10 @@
+<div class="main-container d-flex">
+    <div class="w-25">
+        <app-side-bar (sidebarEmitter)="emittedValue($event)"></app-side-bar>
+    </div>
+    <div class="w-75">
+        <ng-container *ngIf="activeMenu === 'echart'">
+            <app-echart-ui></app-echart-ui>
+        </ng-container>
+    </div>
+</div>

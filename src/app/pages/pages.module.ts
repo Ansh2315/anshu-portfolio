@@ -10,6 +10,10 @@ import { FooterComponent } from './footer/footer.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { SkillComponent } from './skill/skill.component';
 import { ExperienceComponent } from './experience/experience.component';
+import { ElementsComponent } from './elements/elements.component';
+import { SideBarComponent } from './side-bar/side-bar.component';
+import { EchartUiComponent } from './echart-ui/echart-ui.component';
+import { NgxEchartsModule } from 'ngx-echarts';
 
 
 @NgModule({
@@ -19,7 +23,10 @@ import { ExperienceComponent } from './experience/experience.component';
     HomeMenuComponent,
     FooterComponent,
     SkillComponent,
-    ExperienceComponent
+    ExperienceComponent,
+    ElementsComponent,
+    SideBarComponent,
+    EchartUiComponent,
   ],
   imports: [
     CommonModule,
@@ -27,7 +34,10 @@ import { ExperienceComponent } from './experience/experience.component';
     PdfViewerModule,
     NgxExtendedPdfViewerModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    NgxEchartsModule.forRoot({
+      echarts: () => import('echarts')
+    })
   ]
 })
 export class PagesModule { }

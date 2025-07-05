@@ -1,0 +1,14 @@
+<div class="row col-md-12 my-2 px-3">
+    <ng-container *ngFor="let each of listOfCharts">
+        <div class="col-md-4 echart-card">
+            <div class="echart-bg p-2">
+                <span>{{each.title}}</span>
+            </div>
+            <div class="d-flex echart-bg shadow">
+                <echarts  #chartRef [autoResize]="true" [options]="each.option" class="chart-container">
+                </echarts>
+            </div>
+        </div>
+
+    </ng-container>
+</div>

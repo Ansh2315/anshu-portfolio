@@ -1,0 +1,48 @@
+.main-bar {
+    height: 100%;
+    background-color: black;
+
+    .sidebar-header {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        border-bottom: 1px solid white;
+        color: white;
+
+        img {
+            width: 20px;
+            height: 20px;
+            object-fit: contain;
+            margin-bottom: 5px;
+            cursor: pointer;
+        }
+    }
+
+    .active {
+        background-color: #235d9f;
+    }
+
+    .each-bar {
+        display: flex;
+        gap: 5px;
+        align-items: center;
+        padding: 10px;
+        cursor: pointer;
+
+
+        &:hover {
+            background-color: #235d9f;
+        }
+
+        .each-label {
+            color: #fff;
+        }
+
+        img {
+            width: 20px;
+            height: 20px;
+            object-fit: contain;
+            margin-bottom: 5px;
+        }
+    }
+}
