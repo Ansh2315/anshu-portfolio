@@ -1,3 +1,30 @@
 .main-container {
     height: calc(100vh - 50px);
 }
+
+.collapse-bar {
+    width: 5%;
+}
+
+.expand-bar {
+    width: 25%;
+}
+
+.chart-expand {
+    width: 95%;
+}
+
+.chart-collapse {
+    width: 75%;
+}
+
+@media only screen and (max-width: 768px) {
+    .chart-collapse {
+        display: none;
+    }
+
+    .expand-bar {
+        width: 100%;
+    }
+
+}

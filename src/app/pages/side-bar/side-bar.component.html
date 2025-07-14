@@ -1,10 +1,12 @@
 <div class="main-bar">
-    <div class="sidebar-header">
-        <span>Libraries</span><img alt="side-bar" src="./assets/element-icon/hamburger-icon.png">
+    <div class="sidebar-header" [ngClass]="isCollapse ? 'center-align' : 'space-between'">
+        <span *ngIf="!isCollapse">Libraries</span><img (click)="collapseSidebar()" alt="side-bar"
+            src="./assets/element-icon/hamburger-icon.png">
     </div>
     <ng-container *ngFor="let each of item">
-        <div class="each-bar" [ngClass]="each.value === selectedItem ? 'active' : ''" (click)="onItemClick(each.value)">
-            <img [alt]="each.label" [src]="each.icon"><span class="each-label">{{each.label}}</span>
+        <div class="each-bar" [ngClass]="{'active': each.value === selectedItem, 'center-align': isCollapse}"
+            (click)="onItemClick(each.value)">
+            <img [alt]="each.label" [src]="each.icon"><span *ngIf="!isCollapse" class="each-label">{{each.label}}</span>
         </div>
     </ng-container>
 </div>

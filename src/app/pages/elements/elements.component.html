@@ -1,8 +1,8 @@
 <div class="main-container d-flex">
-    <div class="w-25">
-        <app-side-bar (sidebarEmitter)="emittedValue($event)"></app-side-bar>
+    <div [ngClass]="isCollapse ? 'collapse-bar': 'expand-bar'">
+        <app-side-bar [isCollapse]="isCollapse" (sidebarEmitter)="emittedValue($event)"></app-side-bar>
     </div>
-    <div class="w-75">
+    <div [ngClass]="isCollapse ? 'chart-expand': 'chart-collapse'">
         <ng-container *ngIf="activeMenu === 'echart'">
             <app-echart-ui></app-echart-ui>
         </ng-container>

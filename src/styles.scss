@@ -97,6 +97,14 @@
     width: 50%;
 }
 
+.w-95 {
+    width: 95%;
+}
+
+.w-5 {
+    width: 5%;
+}
+
 .column-flex {
     display: flex;
     flex-direction: column;
@@ -110,4 +118,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.space-between {
+    display: flex;
+    justify-content: space-between;
 }

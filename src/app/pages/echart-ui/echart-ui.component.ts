@@ -25,41 +25,6 @@ export class EchartUiComponent implements OnInit {
       option: {}
     },
     {
-      title: 'Pie Chart',
-      value: 'pie',
-      option: {}
-    },
-    {
-      title: 'Pie Chart',
-      value: 'pie',
-      option: {}
-    },
-    {
-      title: 'Pie Chart',
-      value: 'pie',
-      option: {}
-    },
-    {
-      title: 'Pie Chart',
-      value: 'pie',
-      option: {}
-    },
-    {
-      title: 'Pie Chart',
-      value: 'pie',
-      option: {}
-    },
-    {
-      title: 'Pie Chart',
-      value: 'pie',
-      option: {}
-    },
-    {
-      title: 'Pie Chart',
-      value: 'pie',
-      option: {}
-    },
-    {
       title: 'Heat Map',
       value: 'heatmap',
       option: {}

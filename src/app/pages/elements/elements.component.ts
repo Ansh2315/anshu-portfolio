@@ -7,7 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ElementsComponent implements OnInit {
 
-  public activeMenu: string = '';
+  public activeMenu: string = 'echart';
+  public isCollapse: boolean = true;
 
   constructor() { }
 
@@ -18,7 +19,14 @@ export class ElementsComponent implements OnInit {
   emittedValue = (event: any) => {
     try {
       if (event) {
-        this.activeMenu = event;
+        switch (event.type) {
+          case 'tab':
+            this.activeMenu = event.value;
+            break;
+          case 'sidebar':
+            this.isCollapse = event.value;
+            break;
+        }
       }
     } catch (error) {
       console.error(error);

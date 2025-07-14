@@ -1,4 +1,4 @@
-import { Component, EventEmitter, OnInit, Output } from '@angular/core';
+import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 import { ScreenResolutionService } from 'src/app/services/screen-resolution.service';
 
 @Component({
@@ -9,6 +9,7 @@ import { ScreenResolutionService } from 'src/app/services/screen-resolution.serv
 export class SideBarComponent implements OnInit {
 
   @Output() sidebarEmitter = new EventEmitter();
+  @Input() isCollapse: any;
 
   public item = [
     {
@@ -27,9 +28,12 @@ export class SideBarComponent implements OnInit {
       icon: './assets/element-icon/tree-icon.png'
     }
   ]
-  public selectedItem: string = '';
+  public selectedItem: string = 'echart';
+  public deviceType: string | null = '';
 
-  constructor(public screenResService: ScreenResolutionService) { }
+  constructor(public screenResService: ScreenResolutionService) {
+    this.deviceType = this.screenResService.getDeviceType();
+  }
 
   ngOnInit(): void {
   }
@@ -37,7 +41,16 @@ export class SideBarComponent implements OnInit {
   onItemClick = (value: any) => {
     try {
       this.selectedItem = value;
-      this.sidebarEmitter.emit(this.selectedItem);
+      this.sidebarEmitter.emit({ type: 'tab', value: this.selectedItem });
+    } catch (error) {
+      console.error(error);
+    }
+  }
+
+  collapseSidebar = () => {
+    try {
+      this.isCollapse = !this.isCollapse;
+      this.sidebarEmitter.emit({ type: 'sidebar', value: this.isCollapse });
     } catch (error) {
       console.error(error);
     }
