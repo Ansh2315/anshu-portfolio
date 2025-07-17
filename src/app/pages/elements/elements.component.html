@@ -6,5 +6,11 @@
         <ng-container *ngIf="activeMenu === 'echart'">
             <app-echart-ui></app-echart-ui>
         </ng-container>
+        <ng-container *ngIf="activeMenu === 'aggrid'">
+            <app-ag-grid></app-ag-grid>
+        </ng-container>
+        <ng-container *ngIf="activeMenu === 'tree_component'">
+            <app-explorer-tree></app-explorer-tree>
+        </ng-container>
     </div>
 </div>

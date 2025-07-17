@@ -28,6 +28,16 @@ export class EchartUiComponent implements OnInit {
       title: 'Heat Map',
       value: 'heatmap',
       option: {}
+    },
+    {
+      title: 'Candlestick',
+      value: 'candlestick',
+      option: {}
+    },
+    {
+      title: 'Sankey Chart',
+      value: 'sankey',
+      option: {}
     }
   ]
 
@@ -38,6 +48,9 @@ export class EchartUiComponent implements OnInit {
     },
     yAxis: {
       type: 'value'
+    },
+    tooltip: {
+      show: true
     },
     series: [
       {
@@ -55,6 +68,9 @@ export class EchartUiComponent implements OnInit {
     yAxis: {
       type: 'value'
     },
+    tooltip: {
+      show: true
+    },
     series: [
       {
         data: [120, 200, 150, 80, 70, 110, 130],
@@ -62,6 +78,92 @@ export class EchartUiComponent implements OnInit {
       }
     ]
   }
+
+  public candleStick: EChartsOption = {
+    xAxis: {
+      data: ['2025-01-24', '2025-01-25', '2025-01-26', '2025-01-27']
+    },
+    yAxis: {},
+    tooltip: {
+      show: true
+    },
+    series: [
+      {
+        type: 'candlestick',
+        data: [
+          [20, 34, 10, 38],
+          [40, 35, 30, 50],
+          [31, 38, 33, 44],
+          [38, 15, 5, 42]
+        ]
+      }
+    ]
+  };
+
+  public sankey: EChartsOption = {
+    tooltip: {
+      trigger: 'item',
+      triggerOn: 'mousemove'
+    },
+    series: {
+      type: 'sankey',
+      emphasis: {
+        focus: 'adjacency'
+      },
+      data: [
+        {
+          name: 'a'
+        },
+        {
+          name: 'b'
+        },
+        {
+          name: 'a1'
+        },
+        {
+          name: 'a2'
+        },
+        {
+          name: 'b1'
+        },
+        {
+          name: 'c'
+        }
+      ],
+      links: [
+        {
+          source: 'a',
+          target: 'a1',
+          value: 5
+        },
+        {
+          source: 'a',
+          target: 'a2',
+          value: 3
+        },
+        {
+          source: 'b',
+          target: 'b1',
+          value: 8
+        },
+        {
+          source: 'a',
+          target: 'b1',
+          value: 3
+        },
+        {
+          source: 'b1',
+          target: 'a1',
+          value: 1
+        },
+        {
+          source: 'b1',
+          target: 'c',
+          value: 2
+        }
+      ]
+    }
+  };
 
   public heatMap: any = {
     tooltip: {
@@ -180,6 +282,12 @@ export class EchartUiComponent implements OnInit {
             break;
           case 'heatmap':
             this.getHeatMapData(element);
+            break;
+          case 'candlestick':
+            element.option = { ...this.candleStick };
+            break;
+          case 'sankey':
+            element.option = { ...this.sankey };
             break;
         }
         if (element.value === 'line') {

@@ -14,6 +14,10 @@ import { ElementsComponent } from './elements/elements.component';
 import { SideBarComponent } from './side-bar/side-bar.component';
 import { EchartUiComponent } from './echart-ui/echart-ui.component';
 import { NgxEchartsModule } from 'ngx-echarts';
+import { AgGridComponent } from './ag-grid/ag-grid.component';
+import { AgGridModule } from 'ag-grid-angular';
+import { TreeModule } from '@circlon/angular-tree-component';
+import { ExplorerTreeComponent } from './explorer-tree/explorer-tree.component';
 
 
 @NgModule({
@@ -27,6 +31,8 @@ import { NgxEchartsModule } from 'ngx-echarts';
     ElementsComponent,
     SideBarComponent,
     EchartUiComponent,
+    AgGridComponent,
+    ExplorerTreeComponent
   ],
   imports: [
     CommonModule,
@@ -34,6 +40,8 @@ import { NgxEchartsModule } from 'ngx-echarts';
     PdfViewerModule,
     NgxExtendedPdfViewerModule,
     FormsModule,
+    AgGridModule,
+    TreeModule,
     ReactiveFormsModule,
     NgxEchartsModule.forRoot({
       echarts: () => import('echarts')

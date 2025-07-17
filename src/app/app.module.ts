@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { PagesModule } from './pages/pages.module';
 import { PagesRoutingModule } from './pages/pages-routing.module';
 import {HeaderComponent} from "./header/header.component";
+import { TreeModule } from '@circlon/angular-tree-component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -17,6 +19,8 @@ import {HeaderComponent} from "./header/header.component";
     PagesModule,
     PagesRoutingModule,
     AppRoutingModule,
+    TreeModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
