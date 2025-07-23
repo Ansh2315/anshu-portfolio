@@ -18,6 +18,8 @@ import { AgGridComponent } from './ag-grid/ag-grid.component';
 import { AgGridModule } from 'ag-grid-angular';
 import { TreeModule } from '@circlon/angular-tree-component';
 import { ExplorerTreeComponent } from './explorer-tree/explorer-tree.component';
+import { DragDropComponent } from './drag-drop/drag-drop.component';
+import { DragDropModule } from '@angular/cdk/drag-drop';
 
 
 @NgModule({
@@ -32,7 +34,8 @@ import { ExplorerTreeComponent } from './explorer-tree/explorer-tree.component';
     SideBarComponent,
     EchartUiComponent,
     AgGridComponent,
-    ExplorerTreeComponent
+    ExplorerTreeComponent,
+    DragDropComponent
   ],
   imports: [
     CommonModule,
@@ -42,6 +45,7 @@ import { ExplorerTreeComponent } from './explorer-tree/explorer-tree.component';
     FormsModule,
     AgGridModule,
     TreeModule,
+    DragDropModule,
     ReactiveFormsModule,
     NgxEchartsModule.forRoot({
       echarts: () => import('echarts')

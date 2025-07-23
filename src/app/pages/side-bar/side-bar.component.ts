@@ -26,6 +26,11 @@ export class SideBarComponent implements OnInit {
       label: 'Angular Tree',
       value: 'tree_component',
       icon: './assets/element-icon/tree-icon.png'
+    },
+    {
+      label: 'CdkDragDrop',
+      value: 'drag_drop',
+      icon: './assets/element-icon/drag-drop.png'
     }
   ]
   public selectedItem: string = 'echart';
