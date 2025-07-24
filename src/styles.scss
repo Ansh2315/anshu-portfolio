@@ -121,6 +121,11 @@
   align-items: center;
 }
 
+.horz-center {
+    display: flex;
+    justify-content: center;
+}
+
 .space-between {
     display: flex;
     justify-content: space-between;

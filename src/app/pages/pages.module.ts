@@ -1,5 +1,5 @@
 import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import { AsyncPipe, CommonModule } from '@angular/common';
 
 import { PagesRoutingModule } from './pages-routing.module';
 import { HomeComponent } from './home/home.component';
@@ -20,6 +20,9 @@ import { TreeModule } from '@circlon/angular-tree-component';
 import { ExplorerTreeComponent } from './explorer-tree/explorer-tree.component';
 import { DragDropComponent } from './drag-drop/drag-drop.component';
 import { DragDropModule } from '@angular/cdk/drag-drop';
+import { ReduxComponent } from './redux/redux.component';
+import { counterReducer } from './ngrx/reducer';
+import { StoreModule } from '@ngrx/store';
 
 
 @NgModule({
@@ -35,7 +38,8 @@ import { DragDropModule } from '@angular/cdk/drag-drop';
     EchartUiComponent,
     AgGridComponent,
     ExplorerTreeComponent,
-    DragDropComponent
+    DragDropComponent,
+    ReduxComponent
   ],
   imports: [
     CommonModule,
@@ -46,7 +50,9 @@ import { DragDropModule } from '@angular/cdk/drag-drop';
     AgGridModule,
     TreeModule,
     DragDropModule,
+    AsyncPipe,
     ReactiveFormsModule,
+    StoreModule.forRoot({ counter: counterReducer}),
     NgxEchartsModule.forRoot({
       echarts: () => import('echarts')
     })

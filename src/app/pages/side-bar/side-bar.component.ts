@@ -31,6 +31,11 @@ export class SideBarComponent implements OnInit {
       label: 'CdkDragDrop',
       value: 'drag_drop',
       icon: './assets/element-icon/drag-drop.png'
+    },
+    {
+      label: 'NgRx (State Management)',
+      value: 'ngrx',
+      icon: './assets/element-icon/redux-icon.png'
     }
   ]
   public selectedItem: string = 'echart';

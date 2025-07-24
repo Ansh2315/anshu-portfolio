@@ -1,0 +1,10 @@
+<div class="horz-center">
+    <div class="redux-main">
+        <span class="re-font">{{count | async}}</span>
+        <div class="btn-align">
+            <button class="btn btn-success" (click)="addCounter()">Add</button>
+            <button class="btn btn-danger" (click)="subCounter()">Subtract</button>
+            <button class="btn btn-warning" (click)="reset()">Reset</button>
+        </div>
+    </div>
+</div>
