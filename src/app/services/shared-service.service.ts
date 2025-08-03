@@ -14,4 +14,8 @@ export class SharedServiceService {
   getStateTreeData(): Observable<any> {
     return this._http.get<any>('assets/jsons/angular-tree/tree-node.json');
   }
+
+  getAgGridData(): Observable<any> {
+    return this._http.get<any>('assets/jsons/ag-grid-data.json');
+  }
 }

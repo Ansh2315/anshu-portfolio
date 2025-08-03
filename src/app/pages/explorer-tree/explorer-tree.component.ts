@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Subject, takeUntil } from 'rxjs';
 import { SharedServiceService } from 'src/app/services/shared-service.service';
 
 @Component({
@@ -12,6 +13,7 @@ export class ExplorerTreeComponent implements OnInit {
     displayField: 'name',
     isExpandedField: 'expanded',
   };
+  public destroy$: Subject<any> = new Subject();
 
   constructor(public _sharedService: SharedServiceService) { }
 
@@ -22,14 +24,20 @@ export class ExplorerTreeComponent implements OnInit {
 
   getTreeData = () => {
     try {
-      this._sharedService.getStateTreeData().subscribe((resp) => {
-        if (resp) {
-          this.nodes = resp?.nodes
+      this._sharedService.getStateTreeData().pipe(takeUntil(this.destroy$)).subscribe((resp) => {
+        if (resp?.status === 'success') {
+          this.nodes = resp.data?.nodes || [];
         }
       })
     } catch (error) {
       console.error(error);
     }
+  }
+
+  ngOnDestroy() {
+    this.destroy$.next(0);
+    this.destroy$.complete();
+    this.destroy$.unsubscribe();
   }
 
 }
