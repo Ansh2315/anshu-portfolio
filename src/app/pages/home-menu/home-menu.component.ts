@@ -35,14 +35,14 @@ export class HomeMenuComponent implements OnInit {
   zoomIn = () => {
     try {
       this.zoom += 0.1;
-    } catch (error){
+    } catch (error) {
       console.error(error);
     }
   }
 
   zoomOut = () => {
     try {
-      if(this.zoom === 1) {
+      if (this.zoom === 1) {
         return;
       }
       this.zoom = this.zoom - 0.1;

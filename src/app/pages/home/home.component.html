@@ -1,7 +1,7 @@
 <div class="main-container">
-    <ng-container *ngIf="activeMenu === 'home'">
-        <app-home-menu></app-home-menu>
-    </ng-container>
+  <ng-container *ngIf="activeMenu === 'home'">
+    <app-home-menu></app-home-menu>
+  </ng-container>
   <ng-container *ngIf="activeMenu === 'skills'">
     <app-skill></app-skill>
   </ng-container>
@@ -14,4 +14,32 @@
   <ng-container *ngIf="activeMenu === 'elements'">
     <app-elements></app-elements>
   </ng-container>
+</div>
+
+
+
+<button type="button" class="btn btn-primary d-none" id="overviewModalId" data-bs-toggle="modal"
+  data-bs-target="#overviewModal">
+  Launch demo modal
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="overviewModal" tabindex="-1" role="dialog" aria-labelledby="overviewLabel"
+  aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="overviewLabel">Overview</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        This portfolio highlights my technical expertise in Angular and the libraries I have worked with. While
+        the initial focus has been on implementing functionality, I am continuously enhancing it by improving
+        the design, adding features, and expanding its scope to better showcase my skills.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
 </div>

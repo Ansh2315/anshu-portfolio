@@ -15,7 +15,7 @@
     padding: 0;
     width: 100%;
     overflow-x: hidden; /* Prevents horizontal scrolling */
-    font-family: "Roboto", serif;
+    font-family: "Roboto", serif !important;
   }
 
 .roboto-regular {
@@ -130,3 +130,5 @@
     display: flex;
     justify-content: space-between;
 }
+/* Importing Bootstrap SCSS file. */
+@import '~bootstrap/scss/bootstrap';

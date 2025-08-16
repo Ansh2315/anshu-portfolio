@@ -8,6 +8,7 @@ import { PagesRoutingModule } from './pages/pages-routing.module';
 import {HeaderComponent} from "./header/header.component";
 import { TreeModule } from '@circlon/angular-tree-component';
 import { HttpClientModule } from '@angular/common/http';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { HttpClientModule } from '@angular/common/http';
     PagesRoutingModule,
     AppRoutingModule,
     TreeModule,
-    HttpClientModule
+    HttpClientModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]

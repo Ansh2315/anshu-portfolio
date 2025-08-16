@@ -1,0 +1,19 @@
+.redux-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    min-width: 50%;
+    border: 1px solid #b9bbbd;
+    border-radius: 10px;
+
+    .re-font {
+        font-size: xxx-large;
+    }
+
+    .btn-align {
+        display: flex;
+        gap: 10px;
+    }
+}

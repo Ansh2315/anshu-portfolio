@@ -39,7 +39,4 @@ export class ReduxComponent implements OnInit {
     })
   }
 
-  ngOnDestroy() {
-  this.store.dispatch(reset());
-}
 }

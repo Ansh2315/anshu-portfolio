@@ -23,6 +23,8 @@ import { DragDropModule } from '@angular/cdk/drag-drop';
 import { ReduxComponent } from './redux/redux.component';
 import { counterReducer } from './ngrx/reducer';
 import { StoreModule } from '@ngrx/store';
+import { ReduxExampleComponent } from './redux-example/redux-example.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 
 @NgModule({
@@ -39,7 +41,8 @@ import { StoreModule } from '@ngrx/store';
     AgGridComponent,
     ExplorerTreeComponent,
     DragDropComponent,
-    ReduxComponent
+    ReduxComponent,
+    ReduxExampleComponent
   ],
   imports: [
     CommonModule,
@@ -52,6 +55,7 @@ import { StoreModule } from '@ngrx/store';
     DragDropModule,
     AsyncPipe,
     ReactiveFormsModule,
+    NgbModule,
     StoreModule.forRoot({ counter: counterReducer}),
     NgxEchartsModule.forRoot({
       echarts: () => import('echarts')
