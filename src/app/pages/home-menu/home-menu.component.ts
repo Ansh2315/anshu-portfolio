@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import {error} from "@angular/compiler-cli/src/transformers/util";
 
 @Component({
   selector: 'app-home-menu',

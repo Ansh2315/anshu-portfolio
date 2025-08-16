@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnDestroy, OnInit } from '@angular/core';
 import { Subject, takeUntil } from 'rxjs';
 import { SharedServiceService } from 'src/app/services/shared-service.service';
 
@@ -7,7 +7,7 @@ import { SharedServiceService } from 'src/app/services/shared-service.service';
   templateUrl: './explorer-tree.component.html',
   styleUrls: ['./explorer-tree.component.scss']
 })
-export class ExplorerTreeComponent implements OnInit {
+export class ExplorerTreeComponent implements OnInit, OnDestroy {
   public nodes = [];
   public options = {
     displayField: 'name',
