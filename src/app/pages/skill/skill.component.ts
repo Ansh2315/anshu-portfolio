@@ -40,6 +40,12 @@ export class SkillComponent implements OnInit {
       value: 'rxjs'
     },
     {
+      label: 'NgRx',
+      level: 90,
+      image: './assets/skill-icon/ngrx-icon.svg',
+      value: 'ngrx'
+    },
+    {
       label: 'SCSS',
       level: 90,
       image: './assets/skill-icon/css-icon.png',
