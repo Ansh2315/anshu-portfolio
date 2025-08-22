@@ -1,0 +1,44 @@
+<div class="map-main-container row col-md-12 m-0">
+    <div class="col-md-3 py-2 store-container">
+        <ng-container *ngFor="let each of storeLocation">
+            <div class="each-store my-1 p-1">
+                <div class="each-title">
+                    <img alt="store-icon" src="/assets/store-icon.png">
+                    <label class="roboto-bold">{{each['company']}}</label>
+                </div>
+                <div class="d-flex font-small px-1">
+                    <span>Location: </span>&nbsp;
+                    <span>{{each['shopName']}}</span>
+                </div>
+                <div class="d-flex font-small px-1">
+                    <span>Latitude</span>&nbsp;
+                    <span>{{each['lat']}}</span>
+                </div>
+                <div class="d-flex font-small px-1">
+                    <span>Longitude</span>&nbsp;
+                    <span>{{each['lng']}}</span>
+                </div>
+            </div>
+        </ng-container>
+    </div>
+    <div class="col-md-9 map-area">
+        <google-map width="100%" height="100%" [center]="center" [zoom]="zoom" (mapClick)="moveMap($event)"
+            (mapMousemove)="move($event)" [options]="mapOptions">
+            <map-marker *ngIf="markerPosition" [position]="markerPosition" [options]="mapOptions">
+            </map-marker>
+            <ng-container *ngFor="let marker of storeLocation">
+                <map-marker [position]="{lat: marker['lat'], lng: marker['lng']}"
+                    [options]="{ draggable: false }"></map-marker>
+            </ng-container>
+        </google-map>
+        <div class="lat_long">
+            <div>Latitude: {{display?.lat}}</div>
+            <div>Longitude: {{display?.lng}}</div>
+        </div>
+    </div>
+</div>
+
+<div class="loader-overlay" *ngIf="showLoader">
+    <div class="spinner"></div>
+    <p>Loading Map...</p>
+</div>

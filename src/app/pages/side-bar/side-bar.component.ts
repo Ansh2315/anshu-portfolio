@@ -36,6 +36,11 @@ export class SideBarComponent implements OnInit {
       label: 'NgRx (State Management)',
       value: 'ngrx',
       icon: './assets/element-icon/redux-icon.png'
+    },
+    {
+      label: 'Google Map',
+      value: 'map',
+      icon: './assets/element-icon/g-map.png'
     }
   ]
   public selectedItem: string = 'echart';

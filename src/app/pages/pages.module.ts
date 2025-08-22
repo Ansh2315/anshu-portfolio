@@ -25,6 +25,9 @@ import { counterReducer } from './ngrx/reducer';
 import { StoreModule } from '@ngrx/store';
 import { ReduxExampleComponent } from './redux-example/redux-example.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { NgSelectModule } from '@ng-select/ng-select';
+import { GoogleMapsModule } from '@angular/google-maps';
+import { GoogleMapComponent } from './google-map/google-map.component';
 
 
 @NgModule({
@@ -42,7 +45,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     ExplorerTreeComponent,
     DragDropComponent,
     ReduxComponent,
-    ReduxExampleComponent
+    ReduxExampleComponent,
+    GoogleMapComponent
   ],
   imports: [
     CommonModule,
@@ -56,6 +60,10 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     AsyncPipe,
     ReactiveFormsModule,
     NgbModule,
+    NgSelectModule,
+    FormsModule,
+    GoogleMapsModule,
+    ReactiveFormsModule,
     StoreModule.forRoot({ counter: counterReducer}),
     NgxEchartsModule.forRoot({
       echarts: () => import('echarts')

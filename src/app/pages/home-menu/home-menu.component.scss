@@ -5,6 +5,15 @@
     height: calc(100vh - 50px);
 }
 
+.lang-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-block: 5px;
+    padding-inline: 5px;
+    display: flex;
+    justify-content: flex-end;
+}
+
 .main-content {
     display: flex;
     justify-content: space-between;
@@ -163,32 +172,36 @@
             font-size: 45px
         }
     }
-  }
+}
 
 @media only screen and (max-width: 600px) {
-    // styles for mobile
-  .main-content {
-    flex-direction: column;
-    width: 100%;
 
-    .name {
-      font-size: 30px;
+    // styles for mobile
+    .main-content {
+        flex-direction: column;
+        width: 100%;
+
+        .name {
+            font-size: 30px;
+        }
     }
-  }
-  .profile {
-    width: 180px;
-    height: 170px;
-  }
-  .profile-label {
-    max-width: 100%;
-    padding-inline: 15px;
-    align-items: center;
-    justify-content: center;
-  }
+
+    .profile {
+        width: 180px;
+        height: 170px;
+    }
+
+    .profile-label {
+        max-width: 100%;
+        padding-inline: 15px;
+        align-items: center;
+        justify-content: center;
+    }
 
 }
 
-  @media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1024px) {
+
     /* Styles for tablets */
     .main-content {
         display: flex;
@@ -202,4 +215,4 @@
             font-size: 45px
         }
     }
-  }
+}

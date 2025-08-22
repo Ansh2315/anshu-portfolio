@@ -19,5 +19,8 @@
             <app-redux></app-redux>
             <app-redux-example></app-redux-example>
         </ng-container>
+        <ng-container *ngIf="activeMenu === 'map'">
+            <app-google-map></app-google-map>
+        </ng-container>
     </div>
 </div>

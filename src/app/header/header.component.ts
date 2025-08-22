@@ -1,5 +1,6 @@
 import { Component, EventEmitter, OnInit, Output } from '@angular/core';
-import {SharedServiceService} from "../services/shared-service.service";
+import { SharedServiceService } from "../services/shared-service.service";
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-header',
@@ -10,27 +11,15 @@ export class HeaderComponent implements OnInit {
 
 
   public list = [
-    {
-      label: 'Home',
-      value: 'home'
-    },
-    {
-      label: 'Skills',
-      value: 'skills'
-    },
-    {
-      label: 'Experience',
-      value: 'experience'
-    },
-    {
-      label: 'UI Elements',
-      value: 'elements'
-    }
+    { label: 'HEADER.HOME', value: 'home' },
+    { label: 'HEADER.SKILLS', value: 'skills' },
+    { label: 'HEADER.EXPERIENCE', value: 'experience' },
+    { label: 'HEADER.ELEMENTS', value: 'elements' }
   ]
 
   public activeMenu: string = 'home';
 
-  constructor(private _sharedService: SharedServiceService) { }
+  constructor(private _sharedService: SharedServiceService, public translate: TranslateService) { }
 
   ngOnInit(): void {
   }
@@ -38,7 +27,7 @@ export class HeaderComponent implements OnInit {
   onHeaderContent = (event: any) => {
     try {
       this.activeMenu = event;
-      this._sharedService.headerSubject.next({value: this.activeMenu})
+      this._sharedService.headerSubject.next({ value: this.activeMenu })
     } catch (error) {
       console.error(error);
     }

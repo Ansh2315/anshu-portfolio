@@ -5,10 +5,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { PagesModule } from './pages/pages.module';
 import { PagesRoutingModule } from './pages/pages-routing.module';
-import {HeaderComponent} from "./header/header.component";
+import { HeaderComponent } from "./header/header.component";
 import { TreeModule } from '@circlon/angular-tree-component';
-import { HttpClientModule } from '@angular/common/http';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
+import { TranslateHttpLoader } from '@ngx-translate/http-loader';
+
+export function HttpLoaderFactory(http: HttpClient) {
+  return new TranslateHttpLoader(http, './assets/i18n/', '.json');
+}
 
 @NgModule({
   declarations: [
@@ -22,7 +28,14 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     AppRoutingModule,
     TreeModule,
     HttpClientModule,
-    NgbModule
+    NgbModule,
+    TranslateModule.forRoot({
+      loader: {
+        provide: TranslateLoader,
+        useFactory: HttpLoaderFactory,
+        deps: [HttpClient]
+      }
+    })
   ],
   providers: [],
   bootstrap: [AppComponent]

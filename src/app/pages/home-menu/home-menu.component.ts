@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-home-menu',
@@ -8,10 +9,31 @@ import { Component, OnInit } from '@angular/core';
 export class HomeMenuComponent implements OnInit {
 
   public zoom = 1;
+  public languages = [
+  { label: 'English', value: 'en' },
+  { label: 'French', value: 'fr' },
+  { label: 'German', value: 'de' },
+  { label: 'Spanish', value: 'es' },
+  { label: 'Japanese', value: 'ja' },
+  { label: 'Hindi', value: 'hi' }
+];
 
-  constructor() { }
+public selectedLang: String = 'en';
+
+  constructor(public translate: TranslateService) { }
 
   ngOnInit(): void {
+  }
+
+  onLangChange = (lang: any) => {
+    try {
+      if(lang) {
+        this.translate.use(lang);
+      }
+    } catch (error) {
+      console.error(error);
+      
+    }
   }
 
 

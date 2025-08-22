@@ -1,0 +1,2062 @@
+{
+    "status": "success",
+    "data": [
+        {
+            "shopId": "6734",
+            "storeCode": "S063",
+            "shopName": "JP Nagar",
+            "shopAddress": "Ground Floor, Suraksha La Classic Building, No. 15/16, 100 feet ring Road,K.A.S. Officers,  HBCS Layout, 4th Phase,J. P. Nagar, Bangalore, 560078",
+            "fssaiNumber": "11218334001320",
+            "lat": 12.90601,
+            "lng": 77.59377,
+            "distanceFromPos": 16.723,
+            "company": "STARBUCKS",
+            "email": "s063@tatastarbucks.com",
+            "storeContactPhone1": "9136960583",
+            "storeContactPhone2": "",
+            "storeContactPersonName": "",
+            "active": true,
+            "channelDetails": {
+                "mop-delivery": {
+                    "active": false,
+                    "day": "0"
+                },
+                "mop-pickup": {
+                    "active": true,
+                    "day": "0"
+                }
+            },
+            "amenities": [
+                {
+                    "title": "Dine In",
+                    "icon": ""
+                },
+                {
+                    "title": "Wifi",
+                    "icon": ""
+                }
+            ],
+            "shopImages": [
+                {
+                    "url": "https://tsbprods3.azureedge.net/Stores/Store_Image_Def.jpg",
+                    "order": "1",
+                    "name": "Store_Image_Def.jpg"
+                }
+            ],
+            "workingHours": {
+                "mop-delivery": [
+                    {
+                        "day": "0",
+                        "slots": [
+                            {
+                                "from": "08:00",
+                                "to": "23:59"
+                            },
+                            {
+                                "from": "00:00",
+                                "to": "01:00"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "1",
+                        "slots": [
+                            {
+                                "from": "00:00",
+                                "to": "01:00"
+                            },
+                            {
+                                "from": "08:00",
+                                "to": "23:59"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "2",
+                        "slots": [
+                            {
+                                "from": "00:00",
+                                "to": "01:00"
+                            },
+                            {
+                                "from": "08:00",
+                                "to": "23:59"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "3",
+                        "slots": [
+                            {
+                                "from": "00:00",
+                                "to": "01:00"
+                            },
+                            {
+                                "from": "08:00",
+                                "to": "23:59"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "4",
+                        "slots": [
+                            {
+                                "from": "00:00",
+                                "to": "01:00"
+                            },
+                            {
+                                "from": "08:00",
+                                "to": "23:59"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "5",
+                        "slots": [
+                            {
+                                "from": "00:00",
+                                "to": "01:00"
+                            },
+                            {
+                                "from": "08:00",
+                                "to": "23:59"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "6",
+                        "slots": [
+                            {
+                                "from": "00:00",
+                                "to": "01:00"
+                            },
+                            {
+                                "from": "08:00",
+                                "to": "23:59"
+                            }
+                        ]
+                    }
+                ],
+                "mop-pickup": [
+                    {
+                        "day": "0",
+                        "slots": [
+                            {
+                                "from": "08:00",
+                                "to": "23:59"
+                            },
+                            {
+                                "from": "00:00",
+                                "to": "01:00"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "1",
+                        "slots": [
+                            {
+                                "from": "00:00",
+                                "to": "01:00"
+                            },
+                            {
+                                "from": "08:00",
+                                "to": "23:59"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "2",
+                        "slots": [
+                            {
+                                "from": "00:00",
+                                "to": "01:00"
+                            },
+                            {
+                                "from": "08:00",
+                                "to": "23:59"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "3",
+                        "slots": [
+                            {
+                                "from": "00:00",
+                                "to": "01:00"
+                            },
+                            {
+                                "from": "08:00",
+                                "to": "23:59"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "4",
+                        "slots": [
+                            {
+                                "from": "00:00",
+                                "to": "01:00"
+                            },
+                            {
+                                "from": "08:00",
+                                "to": "23:59"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "5",
+                        "slots": [
+                            {
+                                "from": "00:00",
+                                "to": "01:00"
+                            },
+                            {
+                                "from": "08:00",
+                                "to": "23:59"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "6",
+                        "slots": [
+                            {
+                                "from": "00:00",
+                                "to": "01:00"
+                            },
+                            {
+                                "from": "08:00",
+                                "to": "23:59"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "estimatedDeliveryTime": 46,
+            "driveTime": "36",
+            "isFavorite": false,
+            "storeMessage": "Store is open now"
+        },
+        {
+            "shopId": "6738",
+            "storeCode": "S133",
+            "shopName": "Jaya Nagar",
+            "shopAddress": "Gnd flr, bldg Eight-O-Four Avenue, No.804(Old) new no. 45, 9th Main, 4th Block Jayanagar, Bangalore, 560011",
+            "fssaiNumber": "11218334000198",
+            "lat": 12.92454,
+            "lng": 77.58393,
+            "distanceFromPos": 18.077,
+            "company": "STARBUCKS",
+            "email": "s133@tatastarbucks.com",
+            "storeContactPhone1": "9886886806",
+            "storeContactPhone2": "",
+            "storeContactPersonName": "",
+            "active": true,
+            "channelDetails": {
+                "mop-delivery": {
+                    "active": false,
+                    "day": "0"
+                },
+                "mop-pickup": {
+                    "active": true,
+                    "day": "0"
+                }
+            },
+            "amenities": [
+                {
+                    "title": "Dine In",
+                    "icon": ""
+                },
+                {
+                    "title": "Wifi",
+                    "icon": ""
+                }
+            ],
+            "shopImages": [
+                {
+                    "url": "https://tsbprods3.azureedge.net/Stores/Store_Image_Def.jpg",
+                    "order": "1",
+                    "name": "Store_Image_Def.jpg"
+                }
+            ],
+            "workingHours": {
+                "mop-delivery": [
+                    {
+                        "day": "0",
+                        "slots": [
+                            {
+                                "from": "08:00",
+                                "to": "23:59"
+                            },
+                            {
+                                "from": "00:00",
+                                "to": "01:00"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "1",
+                        "slots": [
+                            {
+                                "from": "00:00",
+                                "to": "01:00"
+                            },
+                            {
+                                "from": "08:00",
+                                "to": "23:59"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "2",
+                        "slots": [
+                            {
+                                "from": "00:00",
+                                "to": "01:00"
+                            },
+                            {
+                                "from": "08:00",
+                                "to": "23:59"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "3",
+                        "slots": [
+                            {
+                                "from": "00:00",
+                                "to": "01:00"
+                            },
+                            {
+                                "from": "08:00",
+                                "to": "23:59"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "4",
+                        "slots": [
+                            {
+                                "from": "00:00",
+                                "to": "02:00"
+                            },
+                            {
+                                "from": "08:00",
+                                "to": "23:59"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "5",
+                        "slots": [
+                            {
+                                "from": "00:00",
+                                "to": "01:00"
+                            },
+                            {
+                                "from": "07:30",
+                                "to": "23:59"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "6",
+                        "slots": [
+                            {
+                                "from": "00:00",
+                                "to": "01:00"
+                            },
+                            {
+                                "from": "08:00",
+                                "to": "23:59"
+                            }
+                        ]
+                    }
+                ],
+                "mop-pickup": [
+                    {
+                        "day": "0",
+                        "slots": [
+                            {
+                                "from": "08:00",
+                                "to": "23:59"
+                            },
+                            {
+                                "from": "00:00",
+                                "to": "01:00"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "1",
+                        "slots": [
+                            {
+                                "from": "00:00",
+                                "to": "01:00"
+                            },
+                            {
+                                "from": "08:00",
+                                "to": "23:59"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "2",
+                        "slots": [
+                            {
+                                "from": "00:00",
+                                "to": "01:00"
+                            },
+                            {
+                                "from": "08:00",
+                                "to": "23:59"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "3",
+                        "slots": [
+                            {
+                                "from": "00:00",
+                                "to": "01:00"
+                            },
+                            {
+                                "from": "08:00",
+                                "to": "23:59"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "4",
+                        "slots": [
+                            {
+                                "from": "00:00",
+                                "to": "01:00"
+                            },
+                            {
+                                "from": "08:00",
+                                "to": "23:59"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "5",
+                        "slots": [
+                            {
+                                "from": "00:00",
+                                "to": "01:00"
+                            },
+                            {
+                                "from": "07:30",
+                                "to": "23:59"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "6",
+                        "slots": [
+                            {
+                                "from": "00:00",
+                                "to": "02:30"
+                            },
+                            {
+                                "from": "08:00",
+                                "to": "23:59"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "estimatedDeliveryTime": 52,
+            "driveTime": "42",
+            "isFavorite": false,
+            "storeMessage": "STORE IS OPPEN\r\n"
+        },
+        {
+            "shopId": "6936",
+            "storeCode": "S265",
+            "shopName": "Indiqube Bangalore",
+            "shopAddress": "Ground floor, IndiQube Lakeside, Plot no. 80/2, Bellandur, Varthur Hobli, Bangalore, 560103",
+            "fssaiNumber": "11220333002266",
+            "lat": 12.923692,
+            "lng": 77.671171,
+            "distanceFromPos": 18.405,
+            "company": "STARBUCKS",
+            "email": "s265@tatastarbucks.com",
+            "storeContactPhone1": "8655461722",
+            "storeContactPhone2": "",
+            "storeContactPersonName": "",
+            "active": false,
+            "channelDetails": {
+                "mop-delivery": {
+                    "active": false,
+                    "day": "0"
+                },
+                "mop-pickup": {
+                    "active": false,
+                    "day": "0"
+                }
+            },
+            "amenities": [
+                {
+                    "title": "Dine In",
+                    "icon": ""
+                }
+            ],
+            "shopImages": [
+                {
+                    "url": "https://tsbprods3.azureedge.net/Stores/Store_Image_Def.jpg",
+                    "order": "1",
+                    "name": "Store_Image_Def.jpg"
+                }
+            ],
+            "workingHours": {
+                "mop-delivery": [
+                    {
+                        "day": "0",
+                        "slots": [
+                            {
+                                "from": "08:00",
+                                "to": "23:59"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "1",
+                        "slots": [
+                            {
+                                "from": "08:00",
+                                "to": "23:59"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "2",
+                        "slots": [
+                            {
+                                "from": "08:00",
+                                "to": "23:59"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "3",
+                        "slots": [
+                            {
+                                "from": "08:00",
+                                "to": "23:59"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "4",
+                        "slots": [
+                            {
+                                "from": "08:00",
+                                "to": "23:59"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "5",
+                        "slots": [
+                            {
+                                "from": "08:00",
+                                "to": "23:59"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "6",
+                        "slots": [
+                            {
+                                "from": "08:00",
+                                "to": "23:59"
+                            }
+                        ]
+                    }
+                ],
+                "mop-pickup": [
+                    {
+                        "day": "0",
+                        "slots": [
+                            {
+                                "from": "08:00",
+                                "to": "23:59"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "1",
+                        "slots": [
+                            {
+                                "from": "08:00",
+                                "to": "23:59"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "2",
+                        "slots": [
+                            {
+                                "from": "08:00",
+                                "to": "23:59"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "3",
+                        "slots": [
+                            {
+                                "from": "08:00",
+                                "to": "23:59"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "4",
+                        "slots": [
+                            {
+                                "from": "08:00",
+                                "to": "23:59"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "5",
+                        "slots": [
+                            {
+                                "from": "08:00",
+                                "to": "23:59"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "6",
+                        "slots": [
+                            {
+                                "from": "08:00",
+                                "to": "23:59"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "estimatedDeliveryTime": 46,
+            "driveTime": "36",
+            "isFavorite": false,
+            "storeMessage": "Store opened "
+        },
+        {
+            "shopId": "7053",
+            "storeCode": "S406",
+            "shopName": "Samsung Opera House",
+            "shopAddress": "Opera House, No.57, Brigade Road, (Brigade Road Residency Road Junction), Bangalore, 560025",
+            "fssaiNumber": "11222333002800 ",
+            "lat": 12.97275,
+            "lng": 77.60726,
+            "distanceFromPos": 19.758,
+            "company": "STARBUCKS",
+            "email": "S406@tatastarbucks.com",
+            "storeContactPhone1": "7400403863",
+            "storeContactPhone2": "",
+            "storeContactPersonName": "",
+            "active": false,
+            "channelDetails": {
+                "mop-delivery": {
+                    "active": false,
+                    "day": "0"
+                },
+                "mop-pickup": {
+                    "active": false,
+                    "day": "0"
+                }
+            },
+            "amenities": [
+                {
+                    "title": "Dine In",
+                    "icon": ""
+                },
+                {
+                    "title": "Outdoor Seating",
+                    "icon": ""
+                },
+                {
+                    "title": "Wifi",
+                    "icon": ""
+                }
+            ],
+            "shopImages": [
+                {
+                    "url": "https://tsbprods3.azureedge.net/Stores/S406_1.jpg",
+                    "order": "1",
+                    "name": "S406_1.jpg"
+                }
+            ],
+            "workingHours": {
+                "mop-delivery": [
+                    {
+                        "day": "0",
+                        "slots": [
+                            {
+                                "from": "09:30",
+                                "to": "22:00"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "1",
+                        "slots": [
+                            {
+                                "from": "09:30",
+                                "to": "22:00"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "2",
+                        "slots": [
+                            {
+                                "from": "09:30",
+                                "to": "22:00"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "3",
+                        "slots": [
+                            {
+                                "from": "09:30",
+                                "to": "22:00"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "4",
+                        "slots": [
+                            {
+                                "from": "09:30",
+                                "to": "22:00"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "5",
+                        "slots": [
+                            {
+                                "from": "09:30",
+                                "to": "22:00"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "6",
+                        "slots": [
+                            {
+                                "from": "09:30",
+                                "to": "22:00"
+                            }
+                        ]
+                    }
+                ],
+                "mop-pickup": [
+                    {
+                        "day": "0",
+                        "slots": [
+                            {
+                                "from": "09:30",
+                                "to": "22:00"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "1",
+                        "slots": [
+                            {
+                                "from": "09:30",
+                                "to": "22:00"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "2",
+                        "slots": [
+                            {
+                                "from": "09:30",
+                                "to": "22:00"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "3",
+                        "slots": [
+                            {
+                                "from": "09:30",
+                                "to": "22:00"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "4",
+                        "slots": [
+                            {
+                                "from": "09:30",
+                                "to": "22:00"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "5",
+                        "slots": [
+                            {
+                                "from": "09:30",
+                                "to": "22:00"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "6",
+                        "slots": [
+                            {
+                                "from": "09:30",
+                                "to": "22:00"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "estimatedDeliveryTime": 59,
+            "driveTime": "49",
+            "isFavorite": false,
+            "storeMessage": "on"
+        },
+        {
+            "shopId": "6728",
+            "storeCode": "S151",
+            "shopName": "Vittal Mallya Road",
+            "shopAddress": "Ground Flr, First Flr, Bldg situated at No.38/1, Vittal Mallya Road, Bangalore, 560001",
+            "fssaiNumber": "11218333002406",
+            "lat": 12.97086,
+            "lng": 77.59885,
+            "distanceFromPos": 20.117,
+            "company": "STARBUCKS",
+            "email": "s151@tatastarbucks.com",
+            "storeContactPhone1": "8655896222",
+            "storeContactPhone2": "",
+            "storeContactPersonName": "",
+            "active": true,
+            "channelDetails": {
+                "mop-delivery": {
+                    "active": false,
+                    "day": "0"
+                },
+                "mop-pickup": {
+                    "active": true,
+                    "day": "0"
+                }
+            },
+            "amenities": [
+                {
+                    "title": "Dine In",
+                    "icon": ""
+                },
+                {
+                    "title": "Wifi",
+                    "icon": ""
+                }
+            ],
+            "shopImages": [
+                {
+                    "url": "https://tsbprods3.azureedge.net/Stores/Store_Image_Def.jpg",
+                    "order": "1",
+                    "name": "Store_Image_Def.jpg"
+                }
+            ],
+            "workingHours": {
+                "mop-delivery": [
+                    {
+                        "day": "0",
+                        "slots": [
+                            {
+                                "from": "07:00",
+                                "to": "23:59"
+                            },
+                            {
+                                "from": "00:00",
+                                "to": "01:00"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "1",
+                        "slots": [
+                            {
+                                "from": "00:00",
+                                "to": "01:00"
+                            },
+                            {
+                                "from": "07:00",
+                                "to": "23:59"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "2",
+                        "slots": [
+                            {
+                                "from": "00:00",
+                                "to": "01:00"
+                            },
+                            {
+                                "from": "07:00",
+                                "to": "23:59"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "3",
+                        "slots": [
+                            {
+                                "from": "00:00",
+                                "to": "01:00"
+                            },
+                            {
+                                "from": "07:00",
+                                "to": "23:59"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "4",
+                        "slots": [
+                            {
+                                "from": "00:00",
+                                "to": "01:00"
+                            },
+                            {
+                                "from": "07:00",
+                                "to": "23:59"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "5",
+                        "slots": [
+                            {
+                                "from": "00:00",
+                                "to": "01:00"
+                            },
+                            {
+                                "from": "07:00",
+                                "to": "23:59"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "6",
+                        "slots": [
+                            {
+                                "from": "00:00",
+                                "to": "01:00"
+                            },
+                            {
+                                "from": "07:00",
+                                "to": "23:59"
+                            }
+                        ]
+                    }
+                ],
+                "mop-pickup": [
+                    {
+                        "day": "0",
+                        "slots": [
+                            {
+                                "from": "07:30",
+                                "to": "23:59"
+                            },
+                            {
+                                "from": "00:00",
+                                "to": "01:00"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "1",
+                        "slots": [
+                            {
+                                "from": "00:00",
+                                "to": "01:00"
+                            },
+                            {
+                                "from": "07:30",
+                                "to": "23:59"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "2",
+                        "slots": [
+                            {
+                                "from": "00:00",
+                                "to": "01:00"
+                            },
+                            {
+                                "from": "07:30",
+                                "to": "23:59"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "3",
+                        "slots": [
+                            {
+                                "from": "00:00",
+                                "to": "01:00"
+                            },
+                            {
+                                "from": "07:00",
+                                "to": "23:59"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "4",
+                        "slots": [
+                            {
+                                "from": "00:00",
+                                "to": "01:00"
+                            },
+                            {
+                                "from": "06:30",
+                                "to": "23:59"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "5",
+                        "slots": [
+                            {
+                                "from": "00:00",
+                                "to": "01:00"
+                            },
+                            {
+                                "from": "07:00",
+                                "to": "23:59"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "6",
+                        "slots": [
+                            {
+                                "from": "00:00",
+                                "to": "01:00"
+                            },
+                            {
+                                "from": "07:00",
+                                "to": "23:59"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "estimatedDeliveryTime": 59,
+            "driveTime": "49",
+            "isFavorite": false,
+            "storeMessage": "Store is open now"
+        },
+        {
+            "shopId": "6730",
+            "storeCode": "S036",
+            "shopName": "Church Street",
+            "shopAddress": "No.55, Ground Floor, Church Street, Bangalore, Bangalore, 560001",
+            "fssaiNumber": "11218333000677",
+            "lat": 12.97451,
+            "lng": 77.60731,
+            "distanceFromPos": 20.129,
+            "company": "STARBUCKS",
+            "email": "s036@tatastarbucks.com",
+            "storeContactPhone1": "",
+            "storeContactPhone2": "",
+            "storeContactPersonName": "",
+            "active": false,
+            "channelDetails": {
+                "mop-delivery": {
+                    "active": false,
+                    "day": "0"
+                },
+                "mop-pickup": {
+                    "active": false,
+                    "day": "0"
+                }
+            },
+            "amenities": [
+                {
+                    "title": "Dine In",
+                    "icon": ""
+                },
+                {
+                    "title": "Wifi",
+                    "icon": ""
+                }
+            ],
+            "shopImages": [
+                {
+                    "url": "https://tsbprods3.azureedge.net/Stores/Store_Image_Def.jpg",
+                    "order": "1",
+                    "name": "Store_Image_Def.jpg"
+                }
+            ],
+            "workingHours": {
+                "mop-delivery": [
+                    {
+                        "day": "0",
+                        "slots": [
+                            {
+                                "from": "08:00",
+                                "to": "23:45"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "1",
+                        "slots": [
+                            {
+                                "from": "08:00",
+                                "to": "23:45"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "2",
+                        "slots": [
+                            {
+                                "from": "17:00",
+                                "to": "23:59"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "3",
+                        "slots": [
+                            {
+                                "from": "00:00",
+                                "to": "00:30"
+                            },
+                            {
+                                "from": "08:00",
+                                "to": "23:45"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "4",
+                        "slots": [
+                            {
+                                "from": "08:00",
+                                "to": "23:45"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "5",
+                        "slots": [
+                            {
+                                "from": "08:00",
+                                "to": "23:45"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "6",
+                        "slots": [
+                            {
+                                "from": "08:00",
+                                "to": "23:45"
+                            }
+                        ]
+                    }
+                ],
+                "mop-pickup": [
+                    {
+                        "day": "0",
+                        "slots": [
+                            {
+                                "from": "08:00",
+                                "to": "23:45"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "1",
+                        "slots": [
+                            {
+                                "from": "08:00",
+                                "to": "23:45"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "2",
+                        "slots": [
+                            {
+                                "from": "08:00",
+                                "to": "23:45"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "3",
+                        "slots": [
+                            {
+                                "from": "08:00",
+                                "to": "23:45"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "4",
+                        "slots": [
+                            {
+                                "from": "08:00",
+                                "to": "23:45"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "5",
+                        "slots": [
+                            {
+                                "from": "08:00",
+                                "to": "23:45"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "6",
+                        "slots": [
+                            {
+                                "from": "08:00",
+                                "to": "23:45"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "estimatedDeliveryTime": 60,
+            "driveTime": "50",
+            "isFavorite": false,
+            "storeMessage": "on"
+        },
+        {
+            "shopId": "6714",
+            "storeCode": "S048",
+            "shopName": "Indiranagar 100 Ft Road",
+            "shopAddress": "Ground Floor, Samrat Building, Plot no 2013,HAL, 2nd Stage, Indiranagar, 100 Ft Road, Bangalore, 560038",
+            "fssaiNumber": "11218333000676",
+            "lat": 12.9701586,
+            "lng": 77.6399383,
+            "distanceFromPos": 20.246,
+            "company": "STARBUCKS",
+            "email": "s048@tatastarbucks.com",
+            "storeContactPhone1": "9136443723",
+            "storeContactPhone2": "",
+            "storeContactPersonName": "",
+            "active": false,
+            "channelDetails": {
+                "mop-delivery": {
+                    "active": false,
+                    "day": "0"
+                },
+                "mop-pickup": {
+                    "active": false,
+                    "day": "0"
+                }
+            },
+            "amenities": [
+                {
+                    "title": "Dine In",
+                    "icon": ""
+                },
+                {
+                    "title": "Wifi",
+                    "icon": ""
+                }
+            ],
+            "shopImages": [
+                {
+                    "url": "https://tsbprods3.azureedge.net/Stores/Store_Image_Def.jpg",
+                    "order": "1",
+                    "name": "Store_Image_Def.jpg"
+                }
+            ],
+            "workingHours": {
+                "mop-delivery": [
+                    {
+                        "day": "0",
+                        "slots": [
+                            {
+                                "from": "07:30",
+                                "to": "23:59"
+                            },
+                            {
+                                "from": "00:00",
+                                "to": "00:30"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "1",
+                        "slots": [
+                            {
+                                "from": "00:00",
+                                "to": "00:30"
+                            },
+                            {
+                                "from": "07:30",
+                                "to": "23:59"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "2",
+                        "slots": [
+                            {
+                                "from": "00:00",
+                                "to": "00:30"
+                            },
+                            {
+                                "from": "07:30",
+                                "to": "23:59"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "3",
+                        "slots": [
+                            {
+                                "from": "00:00",
+                                "to": "00:30"
+                            },
+                            {
+                                "from": "07:30",
+                                "to": "23:59"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "4",
+                        "slots": [
+                            {
+                                "from": "00:00",
+                                "to": "00:30"
+                            },
+                            {
+                                "from": "07:30",
+                                "to": "23:59"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "5",
+                        "slots": [
+                            {
+                                "from": "00:00",
+                                "to": "00:30"
+                            },
+                            {
+                                "from": "04:00",
+                                "to": "23:59"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "6",
+                        "slots": [
+                            {
+                                "from": "00:00",
+                                "to": "00:30"
+                            },
+                            {
+                                "from": "07:30",
+                                "to": "23:59"
+                            }
+                        ]
+                    }
+                ],
+                "mop-pickup": [
+                    {
+                        "day": "0",
+                        "slots": [
+                            {
+                                "from": "08:00",
+                                "to": "23:59"
+                            },
+                            {
+                                "from": "00:00",
+                                "to": "00:30"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "1",
+                        "slots": [
+                            {
+                                "from": "00:00",
+                                "to": "00:30"
+                            },
+                            {
+                                "from": "08:00",
+                                "to": "23:59"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "2",
+                        "slots": [
+                            {
+                                "from": "00:00",
+                                "to": "00:30"
+                            },
+                            {
+                                "from": "08:00",
+                                "to": "23:59"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "3",
+                        "slots": [
+                            {
+                                "from": "00:00",
+                                "to": "00:30"
+                            },
+                            {
+                                "from": "08:00",
+                                "to": "23:59"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "4",
+                        "slots": [
+                            {
+                                "from": "00:00",
+                                "to": "00:30"
+                            },
+                            {
+                                "from": "08:00",
+                                "to": "23:59"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "5",
+                        "slots": [
+                            {
+                                "from": "00:00",
+                                "to": "00:30"
+                            },
+                            {
+                                "from": "08:00",
+                                "to": "23:59"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "6",
+                        "slots": [
+                            {
+                                "from": "00:00",
+                                "to": "00:30"
+                            },
+                            {
+                                "from": "08:00",
+                                "to": "23:59"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "estimatedDeliveryTime": 57,
+            "driveTime": "47",
+            "isFavorite": false,
+            "storeMessage": "Store is open"
+        },
+        {
+            "shopId": "6739",
+            "storeCode": "S144",
+            "shopName": "MG Road Bangalore",
+            "shopAddress": "Ground floor of Kidskemp, Ramanashree Arcade,No. 18 (Old No.42), MG Road, Bangalore, 560001",
+            "fssaiNumber": "11218333001203",
+            "lat": 12.97231,
+            "lng": 77.61872,
+            "distanceFromPos": 20.449,
+            "company": "STARBUCKS",
+            "email": "s144@tatastarbucks.com",
+            "storeContactPhone1": "",
+            "storeContactPhone2": "",
+            "storeContactPersonName": "",
+            "active": false,
+            "channelDetails": {
+                "mop-delivery": {
+                    "active": false,
+                    "day": "0"
+                },
+                "mop-pickup": {
+                    "active": false,
+                    "day": "0"
+                }
+            },
+            "amenities": [
+                {
+                    "title": "Dine In",
+                    "icon": ""
+                },
+                {
+                    "title": "Wifi",
+                    "icon": ""
+                }
+            ],
+            "shopImages": [
+                {
+                    "url": "https://tsbprods3.azureedge.net/Stores/Store_Image_Def.jpg",
+                    "order": "1",
+                    "name": "Store_Image_Def.jpg"
+                }
+            ],
+            "workingHours": {
+                "mop-delivery": [
+                    {
+                        "day": "0",
+                        "slots": [
+                            {
+                                "from": "08:00",
+                                "to": "23:59"
+                            },
+                            {
+                                "from": "00:00",
+                                "to": "00:30"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "1",
+                        "slots": [
+                            {
+                                "from": "00:00",
+                                "to": "00:30"
+                            },
+                            {
+                                "from": "08:00",
+                                "to": "23:59"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "2",
+                        "slots": [
+                            {
+                                "from": "00:00",
+                                "to": "00:30"
+                            },
+                            {
+                                "from": "08:00",
+                                "to": "23:59"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "3",
+                        "slots": [
+                            {
+                                "from": "00:00",
+                                "to": "00:30"
+                            },
+                            {
+                                "from": "08:00",
+                                "to": "23:59"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "4",
+                        "slots": [
+                            {
+                                "from": "00:00",
+                                "to": "00:30"
+                            },
+                            {
+                                "from": "08:00",
+                                "to": "23:59"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "5",
+                        "slots": [
+                            {
+                                "from": "00:00",
+                                "to": "00:30"
+                            },
+                            {
+                                "from": "08:00",
+                                "to": "23:59"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "6",
+                        "slots": [
+                            {
+                                "from": "00:00",
+                                "to": "00:30"
+                            },
+                            {
+                                "from": "08:00",
+                                "to": "23:59"
+                            }
+                        ]
+                    }
+                ],
+                "mop-pickup": [
+                    {
+                        "day": "0",
+                        "slots": [
+                            {
+                                "from": "08:00",
+                                "to": "23:59"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "1",
+                        "slots": [
+                            {
+                                "from": "08:00",
+                                "to": "23:59"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "2",
+                        "slots": [
+                            {
+                                "from": "08:00",
+                                "to": "23:59"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "3",
+                        "slots": [
+                            {
+                                "from": "08:00",
+                                "to": "23:59"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "4",
+                        "slots": [
+                            {
+                                "from": "08:00",
+                                "to": "23:59"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "5",
+                        "slots": [
+                            {
+                                "from": "08:00",
+                                "to": "23:59"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "6",
+                        "slots": [
+                            {
+                                "from": "08:00",
+                                "to": "23:59"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "estimatedDeliveryTime": 60,
+            "driveTime": "50",
+            "isFavorite": false,
+            "storeMessage": "Open"
+        },
+        {
+            "shopId": "7001",
+            "storeCode": "S348",
+            "shopName": "Garuda Mall",
+            "shopAddress": "Ground Floor, Garuda Mall, Magrath Rd, Ashok Nagar, Bengaluru, Karnataka, Bangalore, 560025",
+            "fssaiNumber": "11518006001101",
+            "lat": 12.9702991,
+            "lng": 77.60996,
+            "distanceFromPos": 20.492,
+            "company": "STARBUCKS",
+            "email": "S348@tatastarbucks.com",
+            "storeContactPhone1": "8976832378",
+            "storeContactPhone2": "",
+            "storeContactPersonName": "",
+            "active": false,
+            "channelDetails": {
+                "mop-delivery": {
+                    "active": false,
+                    "day": "0"
+                },
+                "mop-pickup": {
+                    "active": false,
+                    "day": "0"
+                }
+            },
+            "amenities": [
+                {
+                    "title": "Dine In",
+                    "icon": ""
+                }
+            ],
+            "shopImages": [
+                {
+                    "url": "https://tsbprods3.azureedge.net/Stores/S348_1.jpg",
+                    "order": "1",
+                    "name": "S348_1.jpg"
+                },
+                {
+                    "url": "https://tsbprods3.azureedge.net/Stores/S348_2.jpg",
+                    "order": "2",
+                    "name": "S348_2.jpg"
+                },
+                {
+                    "url": "https://tsbprods3.azureedge.net/Stores/S348_3.jpg",
+                    "order": "3",
+                    "name": "S348_3.jpg"
+                },
+                {
+                    "url": "https://tsbprods3.azureedge.net/Stores/S348_4.jpg",
+                    "order": "4",
+                    "name": "S348_4.jpg"
+                }
+            ],
+            "workingHours": {
+                "mop-delivery": [
+                    {
+                        "day": "0",
+                        "slots": [
+                            {
+                                "from": "10:00",
+                                "to": "23:00"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "1",
+                        "slots": [
+                            {
+                                "from": "10:00",
+                                "to": "23:00"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "2",
+                        "slots": [
+                            {
+                                "from": "10:00",
+                                "to": "23:30"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "3",
+                        "slots": [
+                            {
+                                "from": "10:00",
+                                "to": "23:00"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "4",
+                        "slots": [
+                            {
+                                "from": "10:00",
+                                "to": "23:00"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "5",
+                        "slots": [
+                            {
+                                "from": "10:00",
+                                "to": "23:00"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "6",
+                        "slots": [
+                            {
+                                "from": "10:00",
+                                "to": "23:00"
+                            }
+                        ]
+                    }
+                ],
+                "mop-pickup": [
+                    {
+                        "day": "0",
+                        "slots": [
+                            {
+                                "from": "10:00",
+                                "to": "23:00"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "1",
+                        "slots": [
+                            {
+                                "from": "10:00",
+                                "to": "23:00"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "2",
+                        "slots": [
+                            {
+                                "from": "10:00",
+                                "to": "23:00"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "3",
+                        "slots": [
+                            {
+                                "from": "10:00",
+                                "to": "23:00"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "4",
+                        "slots": [
+                            {
+                                "from": "10:00",
+                                "to": "23:00"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "5",
+                        "slots": [
+                            {
+                                "from": "10:00",
+                                "to": "23:00"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "6",
+                        "slots": [
+                            {
+                                "from": "10:00",
+                                "to": "23:00"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "estimatedDeliveryTime": 59,
+            "driveTime": "49",
+            "isFavorite": false,
+            "storeMessage": "Store is open"
+        },
+        {
+            "shopId": "6741",
+            "storeCode": "S154",
+            "shopName": "Westside Commercial Street",
+            "shopAddress": "Hajee Saleh Mohamed Ahmed Sait, Cutchi Memon Jamath Khana Bldg, located on 276, K. Kamaraj Road, Bangalore, 560001",
+            "fssaiNumber": "11218333002605",
+            "lat": 12.98247,
+            "lng": 77.61075,
+            "distanceFromPos": 20.904,
+            "company": "STARBUCKS",
+            "email": "s154@tatastarbucks.com",
+            "storeContactPhone1": "8291243875",
+            "storeContactPhone2": "",
+            "storeContactPersonName": "",
+            "active": false,
+            "channelDetails": {
+                "mop-delivery": {
+                    "active": false,
+                    "day": "0"
+                },
+                "mop-pickup": {
+                    "active": false,
+                    "day": "0"
+                }
+            },
+            "amenities": [
+                {
+                    "title": "Dine In",
+                    "icon": ""
+                },
+                {
+                    "title": "Wifi",
+                    "icon": ""
+                }
+            ],
+            "shopImages": [
+                {
+                    "url": "https://tsbprods3.azureedge.net/Stores/Store_Image_Def.jpg",
+                    "order": "1",
+                    "name": "Store_Image_Def.jpg"
+                }
+            ],
+            "workingHours": {
+                "mop-delivery": [
+                    {
+                        "day": "0",
+                        "slots": [
+                            {
+                                "from": "09:30",
+                                "to": "10:00"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "1",
+                        "slots": [
+                            {
+                                "from": "09:30",
+                                "to": "10:00"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "2",
+                        "slots": [
+                            {
+                                "from": "09:30",
+                                "to": "10:00"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "3",
+                        "slots": [
+                            {
+                                "from": "09:30",
+                                "to": "10:00"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "4",
+                        "slots": [
+                            {
+                                "from": "09:30",
+                                "to": "10:00"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "5",
+                        "slots": [
+                            {
+                                "from": "09:30",
+                                "to": "10:30"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "6",
+                        "slots": [
+                            {
+                                "from": "09:30",
+                                "to": "10:00"
+                            }
+                        ]
+                    }
+                ],
+                "mop-pickup": [
+                    {
+                        "day": "0",
+                        "slots": [
+                            {
+                                "from": "09:30",
+                                "to": "10:00"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "1",
+                        "slots": [
+                            {
+                                "from": "09:30",
+                                "to": "10:00"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "2",
+                        "slots": [
+                            {
+                                "from": "09:30",
+                                "to": "10:00"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "3",
+                        "slots": [
+                            {
+                                "from": "09:30",
+                                "to": "10:00"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "4",
+                        "slots": [
+                            {
+                                "from": "09:30",
+                                "to": "10:00"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "5",
+                        "slots": [
+                            {
+                                "from": "09:30",
+                                "to": "10:00"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "6",
+                        "slots": [
+                            {
+                                "from": "09:30",
+                                "to": "10:00"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "estimatedDeliveryTime": 64,
+            "driveTime": "54",
+            "isFavorite": false,
+            "storeMessage": "Store is closed now"
+        }
+    ]
+}
