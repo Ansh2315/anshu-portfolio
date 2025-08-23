@@ -15,7 +15,7 @@
             "storeContactPhone1": "9136960583",
             "storeContactPhone2": "",
             "storeContactPersonName": "",
-            "active": true,
+            "active": false,
             "channelDetails": {
                 "mop-delivery": {
                     "active": false,
@@ -250,7 +250,7 @@
             "storeContactPhone1": "9886886806",
             "storeContactPhone2": "",
             "storeContactPersonName": "",
-            "active": true,
+            "active": false,
             "channelDetails": {
                 "mop-delivery": {
                     "active": false,
@@ -843,7 +843,7 @@
             "storeContactPhone1": "8655896222",
             "storeContactPhone2": "",
             "storeContactPersonName": "",
-            "active": true,
+            "active": false,
             "channelDetails": {
                 "mop-delivery": {
                     "active": false,
