@@ -30,6 +30,7 @@
     background: var(--starbucks-background);
     cursor: pointer;
 
+
     .each-title {
         display: flex;
         gap: 5px;
@@ -38,4 +39,8 @@
             width: 25px;
         }
     }
+}
+
+.each-store.active {
+    background: var(--starbucks-background-active);
 }

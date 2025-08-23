@@ -1,7 +1,8 @@
 <div class="map-main-container row col-md-12 m-0">
     <div class="col-md-3 py-2 store-container">
-        <ng-container *ngFor="let each of storeLocation">
-            <div class="each-store my-1 p-1">
+        <ng-container *ngFor="let each of storeLocation, let i = index;">
+            <div class="each-store my-1 p-1" #storeItem [ngClass]="{'active': each['active']}"
+                (click)="changeLocation(each)">
                 <div class="each-title">
                     <img alt="store-icon" src="./assets/store-icon.png">
                     <label class="roboto-bold">{{each['company']}}</label>
@@ -28,7 +29,8 @@
             </map-marker>
             <ng-container *ngFor="let marker of storeLocation">
                 <map-marker [position]="{lat: marker['lat'], lng: marker['lng']}"
-                    [options]="{ draggable: false }"></map-marker>
+                    [options]="{ draggable: false,   icon: marker.active ? activeIcon : defaultIcon  }"
+                    (mapClick)="changeLocation(marker)"></map-marker>
             </ng-container>
         </google-map>
         <div class="lat_long">

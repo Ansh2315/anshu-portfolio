@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, ElementRef, OnInit, QueryList, ViewChild, ViewChildren } from '@angular/core';
 import { Subject, takeUntil } from 'rxjs';
 import { SharedServiceService } from 'src/app/services/shared-service.service';
 
@@ -14,16 +14,27 @@ export class GoogleMapComponent implements OnInit {
   public mapOptions: google.maps.MapOptions = {
     mapId: 'ee13eb1b998deadced2b48ec'
   }
-
+  public defaultIcon: google.maps.Icon = {
+    url: './assets/google-map/map-icon.png',
+    scaledSize: new google.maps.Size(40, 40),
+    anchor: new google.maps.Point(20, 40) // 👈 optional: makes bottom center sit on coords
+  };
+  
+  public activeIcon: google.maps.Icon = {
+    url: './assets/google-map/map-active-icon.png',
+    scaledSize: new google.maps.Size(50, 50),
+    anchor: new google.maps.Point(25, 50)
+  };
   // Default India's lat & long.
   public center: google.maps.LatLngLiteral = {
     lat: 20.593684,
     lng: 78.962888
   };
   public markerPosition: google.maps.LatLngLiteral | null = null;
-  public zoom = 6;
+  public zoom = 10;
   public destroy$ = new Subject();
-  public storeLocation = [];
+  public storeLocation: any = [];
+  @ViewChildren('storeItem') storeItem!: QueryList<ElementRef>;
 
   constructor(public _shared: SharedServiceService) { }
 
@@ -47,6 +58,24 @@ export class GoogleMapComponent implements OnInit {
       this.showLoader = false;
       console.error(error);
 
+    }
+  }
+
+  changeLocation = (marker: any) => {
+    try {
+      for (let i = 0; i < this.storeLocation.length; i++) {
+        this.storeLocation[i]['active'] = false;
+      }
+      marker['active'] = true;
+      this.center = { lat: marker.lat, lng: marker.lng };
+      // auto scroll into view
+      const index = this.storeLocation.findIndex((ele: any) => ele === marker);
+      if (index !== -1) {
+        const el = this.storeItem.toArray()[index].nativeElement;
+        el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }
+    } catch (error) {
+      console.error(error);
     }
   }
 
