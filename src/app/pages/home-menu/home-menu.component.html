@@ -12,19 +12,15 @@
                 <img class="image img-2" src="assets/profile-3.jpeg">
             </div>
             <div class="profile-label">
-                <span class="sour-gummy-bold name">ANSHUMAN BEHERA</span>
+                <span class="sour-gummy-bold name">{{ 'PROFILE.NAME' | translate }}</span>
                 <div class="contact">
                     <em (click)="contactClick('git')" class="fa fa-github"></em>
                     <em (click)="contactClick('linkedin')" class="fa fa-linkedin"></em>
                 </div>
-                <span class="home-bio">A hardworking and self-driven web developer with a strong passion for technology.
-                    Demonstrates leadership qualities, excels in teamwork, and thrives in collaborative environments.
-                    Continuously explores new innovations and stays updated with emerging trends. Highly motivated,
-                    adaptable, and committed to delivering high-quality solutions with efficiency and creativity.
+                <span class="home-bio">{{ 'PROFILE.DESC' | translate }} 
                 </span>
                 <button (click)="viewResume()" type="button" class="button-29 w-fit"><em
-                        class="fa fa-eye mx-1"></em>View
-                    Resume</button>
+                        class="fa fa-eye mx-1"></em>{{ 'PROFILE.RESUME' | translate }}</button>
                 <i class="fa-brands fa-angular"></i>
             </div>
         </div>

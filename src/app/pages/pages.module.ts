@@ -28,6 +28,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { NgSelectModule } from '@ng-select/ng-select';
 import { GoogleMapsModule } from '@angular/google-maps';
 import { GoogleMapComponent } from './google-map/google-map.component';
+import { TranslateModule } from '@ngx-translate/core';
 
 
 @NgModule({
@@ -64,6 +65,7 @@ import { GoogleMapComponent } from './google-map/google-map.component';
     FormsModule,
     GoogleMapsModule,
     ReactiveFormsModule,
+    TranslateModule,
     StoreModule.forRoot({ counter: counterReducer}),
     NgxEchartsModule.forRoot({
       echarts: () => import('echarts')

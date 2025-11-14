@@ -58,7 +58,6 @@ export class FooterComponent implements OnInit {
       }
     } catch (error) {
       console.error(error);
-      
     }
   }
 

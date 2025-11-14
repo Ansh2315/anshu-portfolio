@@ -4,5 +4,25 @@
     "SKILLS": "Habilidades",
     "EXPERIENCE": "Experiencia",
     "ELEMENTS": "Elementos de la interfaz de usuario"
+  },
+  "PROFILE": {
+    "NAME": "ANSHUMAN BEHERA",
+    "DESC": "Un desarrollador web trabajador y autónomo, con una gran pasión por la tecnología. Demuestra cualidades de liderazgo, destaca en el trabajo en equipo y prospera en entornos colaborativos. Explora continuamente nuevas innovaciones y se mantiene actualizado con las tendencias emergentes. Altamente motivado, adaptable y comprometido a ofrecer soluciones de alta calidad con eficiencia y creatividad.",
+    "RESUME": "Ver el currículum"
+  },
+  "FOOTER": {
+    "HELLO": "Di hola ...",
+    "NAME": "Ingresa el nombre",
+    "EMAIL": "Ingresa el correo electrónico",
+    "MESSAGE": "Ingresa el mensaje",
+    "SENDBTN": "Enviar correo",
+    "VISIT": "Visítame",
+    "ADDR": "Neeladri Nagar, Electronic City, Bangalore, Karnataka",
+    "CONTACT": "Contacto",
+    "ERRORMSG": {
+      "NAME": "El nombre es obligatorio",
+      "EMAIL": "El correo electrónico es obligatorio",
+      "MESSAGE": "El mensaje es obligatorio"
+    }
   }
 }
