@@ -4,5 +4,25 @@
         "SKILLS": "Skills",
         "EXPERIENCE": "Experience",
         "ELEMENTS": "UI Elements"
+    },
+    "PROFILE": {
+        "NAME": "ANSHUMAN BEHERA",
+        "DESC": "A hardworking and self-driven web developer with a strong passion for technology. Demonstrates leadership qualities, excels in teamwork, and thrives in collaborative environments. Continuously explores new innovations and stays updated with emerging trends. Highly motivated,adaptable, and committed to delivering high-quality solutions with efficiency and creativity",
+        "RESUME": "VIEW RESUME"
+    },
+    "FOOTER": {
+        "HELLO": "Say Hello ...",
+        "NAME": "Enter Name",
+        "EMAIL": "Enter Email",
+        "MESSAGE": "Enter Message",
+        "SENDBTN": "Send Email",
+        "VISIT": "Visit Me",
+        "ADDR": "Neeladri Nagar, Electronic City, Bangalore, Karnataka",
+        "CONTACT": "Contact",
+        "ERRORMSG": {
+            "NAME": "Name is required",
+            "EMAIL": "Email is required",
+            "MESSAGE": "Message is required"
+        }
     }
 }
