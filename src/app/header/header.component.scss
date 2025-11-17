@@ -4,6 +4,13 @@
     align-items: center;
     height: 50px;
     background: var(--main-bar);
+    position: relative;
+}
+
+.lang-container {
+    position: absolute;
+    top: 4rem;
+    right: 1rem;
 }
 
 .main-header {

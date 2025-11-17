@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { TranslateService } from '@ngx-translate/core';
+import { Subject, takeUntil } from 'rxjs';
+import { SharedServiceService } from 'src/app/services/shared-service.service';
 
 @Component({
   selector: 'app-experience',
@@ -7,44 +10,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ExperienceComponent implements OnInit {
 
-  public expData = [
-    {
-      label: 'Converted most custom-built tables to AG Grid, significantly enhancing user experience and improving performance by 50%.'
-    },
-    {
-      label: 'Implemented an MQTT-based live notification system for real-time equipment alerts, enabling faster fault detection and reducing accident risks by 40%.'
-    },
-    {
-      label: 'Migrated a large-scale Angular project to Nx monorepo architecture for better scalability, reducing core code dependency and bug rates by 60%.'
-    },
-    {
-      label: 'Worked extensively with RxJS to manage asynchronous data streams, improving application responsiveness and overall maintainability.'
-    },
-    {
-      label: 'Led the integration of the Flourish theme using SCSS, transforming the platform’s UI and improving user engagement, resulting in a 15% reduction in bounce rate.'
-    },
-    {
-      label: 'Developed reusable Angular components such as AG Grid tables, date pickers, custom forms, and charts, reducing development time for other teams by 80%.'
-    },
-    {
-      label: 'Followed Agile methodologies with sprint-based development cycles, ensuring timely delivery, continuous improvement, and close collaboration with cross-functional teams.'
-    },
-    {
-      label: 'Resolved major bugs and reduced SonarQube issues by 80%, leading to higher code quality and better maintainability.'
-    },
-    {
-      label: 'Integrated i18n for multi-language support, accelerating global expansion and driving 50% growth impact.'
-    },
-    {
-      label: 'Utilized key Angular libraries such as ngx-infinite-scroll, google-maps, ngx-monaco-editor, angular-formio, circlon/tree, cytoscape and more to build robust, feature-rich interfaces'
-    },
-    {
-      label: 'Applied Cypress for end-to-end UI testing, ensuring application reliability and maintaining high-quality releases.'
-    },
-    {
-      label: 'Mentored interns on core front-end concepts, contributing to team growth, effective onboarding, and a culture of knowledge sharing.'
-    }
-  ]
+  public expData: any = [];
 
   public projectData = [
     {
@@ -81,10 +47,24 @@ export class ExperienceComponent implements OnInit {
       ]
     }
   ]
+  public destroy$: Subject<any> = new Subject();
 
-  constructor() { }
+  constructor(public _appService: SharedServiceService, public translate: TranslateService) { }
 
   ngOnInit(): void {
+    this.getExpInfo();
+  }
+
+  getExpInfo = () => {
+    try {
+      this._appService.getExpData().pipe(takeUntil(this.destroy$)).subscribe((resp: any) => {
+        if (resp?.status === 'success') {
+          this.expData = resp.data || [];
+        }
+      })
+    } catch (error) {
+      console.error(error);
+    }
   }
 
 }

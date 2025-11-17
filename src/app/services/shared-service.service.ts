@@ -19,8 +19,11 @@ export class SharedServiceService {
     return this._http.get<any>('assets/jsons/ag-grid-data.json');
   }
 
-
   getStoreLocations(): Observable<any> {
     return this._http.get<any>('assets/jsons/location.json');
+  }
+
+  getExpData(): Observable<any> {
+    return this._http.get<any>('assets/jsons/experience/expData.json');
   }
 }

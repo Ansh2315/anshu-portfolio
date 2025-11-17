@@ -17,12 +17,34 @@ export class HeaderComponent implements OnInit {
     { label: 'HEADER.ELEMENTS', value: 'elements' }
   ]
 
+  public languages = [
+    { label: 'English', value: 'en' },
+    { label: 'French', value: 'fr' },
+    { label: 'German', value: 'de' },
+    { label: 'Spanish', value: 'es' },
+    { label: 'Japanese', value: 'ja' },
+    { label: 'Hindi', value: 'hi' }
+  ];
+
   public activeMenu: string = 'home';
+  public selectedLang: String = 'en';
 
   constructor(private _sharedService: SharedServiceService, public translate: TranslateService) { }
 
   ngOnInit(): void {
   }
+
+  onLangChange = (lang: any) => {
+    try {
+      if (lang) {
+        this.translate.use(lang);
+      }
+    } catch (error) {
+      console.error(error);
+
+    }
+  }
+
 
   onHeaderContent = (event: any) => {
     try {

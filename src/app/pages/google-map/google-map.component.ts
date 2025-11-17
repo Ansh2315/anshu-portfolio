@@ -1,4 +1,4 @@
-import { Component, ElementRef, OnInit, QueryList, ViewChild, ViewChildren } from '@angular/core';
+import { Component, ElementRef, OnInit, QueryList, ViewChildren } from '@angular/core';
 import { Subject, takeUntil } from 'rxjs';
 import { SharedServiceService } from 'src/app/services/shared-service.service';
 

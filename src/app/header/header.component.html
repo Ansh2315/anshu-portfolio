@@ -1,4 +1,10 @@
 <div class="main-container">
+    <div class="lang-container">
+        <span>
+            <ng-select [items]="languages" bindLabel="label" bindValue="value" [(ngModel)]="selectedLang"
+                (ngModelChange)="onLangChange(selectedLang)" [clearable]="false"></ng-select>
+        </span>
+    </div>
     <div class="main-header roboto-medium">
         <ng-container *ngFor="let item of list">
             <span (click)="onHeaderContent(item.value)" class="label-font px-1"

@@ -11,6 +11,8 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { NgSelectModule } from '@ng-select/ng-select';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
@@ -29,6 +31,9 @@ export function HttpLoaderFactory(http: HttpClient) {
     TreeModule,
     HttpClientModule,
     NgbModule,
+    ReactiveFormsModule,
+    FormsModule,
+    NgSelectModule,
     TranslateModule.forRoot({
       loader: {
         provide: TranslateLoader,
